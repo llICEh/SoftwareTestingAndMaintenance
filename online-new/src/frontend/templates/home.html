@@ -1,0 +1,175 @@
+{{ define "home" }}
+
+{{ template "header" . }}
+<div {{ with $.platform_css }} class="{{.}}" {{ end }}>
+  <span class="platform-flag">
+    {{$.platform_name}}
+  </span>
+</div>
+<main role="main" class="home">
+
+  <!-- The image at the top of the home page, displayed on smaller screens. -->
+  <div class="home-mobile-hero-banner d-lg-none"></div>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-12 col-lg-12 px-10-percent">
+
+        <!-- 汇率转换器组件 -->
+        <div class="container my-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="unit-converter-container p-4 bg-white rounded shadow">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h3>汇率转换器</h3>
+                  <button class="btn btn-sm btn-outline-secondary" id="toggleUnitConverter">
+                    <i class="fa fa-chevron-down"></i>
+                  </button>
+                </div>
+                <div id="unitConverterContent">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <label for="fromCurrency" class="form-label">FROM</label>
+                      <select id="fromCurrency" class="form-select">
+                        <option value="CNY">人民币 (CNY)</option>
+                        <option value="USD">美元 (USD)</option>
+                        <option value="EUR">欧元 (EUR)</option>
+                        <option value="JPY">日元 (JPY)</option>
+                        <option value="GBP">英镑 (GBP)</option>
+                        <option value="HKD">港币 (HKD)</option>
+                        <option value="CAD">加拿大元 (CAD)</option>
+                        <option value="AUD">澳大利亚元 (AUD)</option>
+                        <option value="SGD">新加坡元 (SGD)</option>
+                        <option value="CHF">瑞士法郎 (CHF)</option>
+                        <option value="KRW">韩元 (KRW)</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="toCurrency" class="form-label">TO</label>
+                      <select id="toCurrency" class="form-select">
+                        <option value="USD">美元 (USD)</option>
+                        <option value="CNY">人民币 (CNY)</option>
+                        <option value="EUR">欧元 (EUR)</option>
+                        <option value="JPY">日元 (JPY)</option>
+                        <option value="GBP">英镑 (GBP)</option>
+                        <option value="HKD">港币 (HKD)</option>
+                        <option value="CAD">加拿大元 (CAD)</option>
+                        <option value="AUD">澳大利亚元 (AUD)</option>
+                        <option value="SGD">新加坡元 (SGD)</option>
+                        <option value="CHF">瑞士法郎 (CHF)</option>
+                        <option value="KRW">韩元 (KRW)</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="currencyValue" class="form-label">金额:</label>
+                      <input type="number" id="currencyValue" class="form-control" placeholder="输入金额">
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" onclick="convertCurrency()">转换</button>
+                  <div id="currencyResult" class="mt-3 p-3 bg-light rounded"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row hot-products-row px-xl-6">
+
+          <div class="col-12">
+            <h3>Hot Products</h3>
+          </div>
+
+          {{ range $.products }}
+          <div class="col-md-4 hot-product-card">
+            <a href="{{ $.baseUrl }}/product/{{.Item.Id}}">
+              <img loading="lazy" src="{{ $.baseUrl }}{{.Item.Picture}}">
+              <div class="hot-product-card-img-overlay"></div>
+            </a>
+            <div>
+              <div class="hot-product-card-name">{{ .Item.Name }}</div>
+              <div class="hot-product-card-price">{{ renderMoney .Price }}</div>
+            </div>
+          </div>
+          {{ end }}
+
+        </div>
+
+        <!-- Footer for larger screens. -->
+        <div class="row d-none d-lg-block home-desktop-footer-row">
+          <div class="col-12 p-0">
+            {{ template "footer" . }}
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<!-- Footer for smaller screens. -->
+<div class="d-lg-none">
+  {{ template "footer" . }}
+</div>
+
+<script>
+  function convertCurrency() {
+    const fromCurrency = document.getElementById('fromCurrency').value;
+    const toCurrency = document.getElementById('toCurrency').value;
+    const amount = document.getElementById('currencyValue').value;
+    
+    if (!amount || isNaN(amount)) {
+      document.getElementById('currencyResult').innerHTML = '请输入有效金额';
+      return;
+    }
+    
+    // 这里使用简化的汇率数据，实际应用中可以调用API获取实时汇率
+    const rates = {
+      "USD": 1.0,
+      "EUR": 0.88,
+      "CNY": 7.24,
+      "JPY": 151.12,
+      "GBP": 0.76,
+      "HKD": 7.81,
+      "CAD": 1.37,
+      "AUD": 1.52,
+      "SGD": 1.35,
+      "CHF": 0.90,
+      "KRW": 1350.25
+    };
+    
+    // 转换逻辑：先转换为USD，再转换为目标货币
+    const amountInUSD = amount / rates[fromCurrency];
+    const convertedAmount = amountInUSD * rates[toCurrency];
+    
+    const currencySymbols = {
+      "USD": "$",
+      "EUR": "€",
+      "CNY": "¥",
+      "JPY": "¥",
+      "GBP": "£",
+      "HKD": "HK$",
+      "CAD": "C$",
+      "AUD": "A$",
+      "SGD": "S$",
+      "CHF": "CHF",
+      "KRW": "₩"
+    };
+    
+    document.getElementById('currencyResult').innerHTML = 
+      `${amount} ${currencySymbols[fromCurrency]} (${fromCurrency}) = 
+       ${convertedAmount.toFixed(2)} ${currencySymbols[toCurrency]} (${toCurrency})`;
+  }
+  
+  // 切换显示/隐藏转换器内容
+  document.getElementById('toggleUnitConverter').addEventListener('click', function() {
+    const content = document.getElementById('unitConverterContent');
+    content.style.display = content.style.display === 'none' ? 'block' : 'none';
+    this.querySelector('i').classList.toggle('fa-chevron-up');
+    this.querySelector('i').classList.toggle('fa-chevron-down');
+  });
+</script>
+
+{{ end }}

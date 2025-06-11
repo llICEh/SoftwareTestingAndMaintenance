@@ -1,0 +1,20 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: checkoutservice-network-delay
+  namespace: chaos-testing
+spec:
+  action: delay
+  mode: one
+  selector:
+    namespaces:
+      - online-boutique
+    labelSelectors:
+      app: checkoutservice
+  delay:
+    latency: "100ms"
+    correlation: "100"
+    jitter: "10ms"
+  duration: "60s"
+  scheduler:
+    cron: "@once"
