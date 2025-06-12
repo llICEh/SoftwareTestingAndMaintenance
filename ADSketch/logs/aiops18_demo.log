@@ -1,0 +1,531 @@
+2025-05-31 14:15:27,200 [INFO]: ^^^^^^^^^^^^^^^ Offline anomaly detection for AIOps18 ^^^^^^^^^^^^^^^
+2025-05-31 14:15:27,231 [INFO]: ============================================================
+2025-05-31 14:15:27,231 [INFO]: Dataset: aiops18 (f0932edd), m: 4, p: 97
+    offline_aiops18_data()2025-05-31 14:15:54,018 [INFO]: The number of anomalous seqs: 3625
+2025-05-31 14:16:29,444 [INFO]: The number of anomalous seqs after ap clustering: 3007
+2025-05-31 14:16:29,444 [INFO]: The number of anomalous clusters: 173
+2025-05-31 14:16:29,576 [INFO]: Metric patterns dumped.
+2025-05-31 14:16:29,635 [INFO]: precision: 0.951, recall: 0.592, f1: 0.730
+2025-05-31 14:16:30,625 [INFO]: Experiment result plotted!
+2025-05-31 14:16:31,128 [INFO]: ^^^^^^^^^^^^^^^ Online anomaly detection for AIOps18 ^^^^^^^^^^^^^^^
+2025-05-31 14:16:31,129 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (05f10d3a), m: 3, p: 99.35 ^^^^^^^^^^
+2025-05-31 14:16:31,129 [INFO]: Parameter settings:
+2025-05-31 14:16:31,129 [INFO]: Anomaly-free metric segment: 62600-67800
+2025-05-31 14:16:31,129 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:16:31,167 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:16:39,018 [INFO]: The number of anomalous seqs: 510
+2025-05-31 14:16:48,430 [INFO]: The number of anomalous seqs after ap clustering: 510
+2025-05-31 14:16:48,430 [INFO]: The number of anomalous clusters: 74
+2025-05-31 14:16:48,512 [INFO]: Metric patterns dumped.
+2025-05-31 14:16:48,548 [INFO]: precision: 0.833, recall: 0.639, f1: 0.723
+2025-05-31 14:16:48,697 [INFO]: Experiment result plotted!
+2025-05-31 14:16:48,910 [INFO]: Loading metric patterns...
+2025-05-31 14:16:48,947 [INFO]: precision: 0.833, recall: 0.639, f1: 0.723
+2025-05-31 14:16:49,290 [INFO]: Experiment result plotted!
+2025-05-31 14:16:49,482 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:16:49,482 [INFO]: The number of subsequences to predict normality: 149128
+2025-05-31 14:16:51,905 [INFO]: precision: 0.270, recall: 0.600, f1: 0.373
+2025-05-31 14:16:52,554 [INFO]: Experiment result plotted!
+2025-05-31 14:16:52,840 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (1c6d7a26), m: 7, p: 99.2 ^^^^^^^^^^
+2025-05-31 14:16:52,840 [INFO]: Parameter settings:
+2025-05-31 14:16:52,841 [INFO]: Anomaly-free metric segment: 3000-8000
+2025-05-31 14:16:52,841 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:16:52,875 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:17:06,106 [INFO]: The number of anomalous seqs: 1106
+2025-05-31 14:17:13,665 [INFO]: The number of anomalous seqs after ap clustering: 814
+2025-05-31 14:17:13,665 [INFO]: The number of anomalous clusters: 50
+2025-05-31 14:17:13,822 [INFO]: Metric patterns dumped.
+2025-05-31 14:17:13,888 [INFO]: precision: 0.741, recall: 0.756, f1: 0.748
+2025-05-31 14:17:14,241 [INFO]: Experiment result plotted!
+2025-05-31 14:17:14,486 [INFO]: Loading metric patterns...
+2025-05-31 14:17:14,553 [INFO]: precision: 0.741, recall: 0.756, f1: 0.748
+2025-05-31 14:17:14,793 [INFO]: Experiment result plotted!
+2025-05-31 14:17:15,025 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:17:15,025 [INFO]: The number of subsequences to predict normality: 149150
+2025-05-31 14:17:16,708 [INFO]: precision: 0.575, recall: 0.741, f1: 0.647
+2025-05-31 14:17:16,961 [INFO]: Experiment result plotted!
+2025-05-31 14:17:17,253 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (42d6616d), m: 4, p: 99.15 ^^^^^^^^^^
+2025-05-31 14:17:17,254 [INFO]: Parameter settings:
+2025-05-31 14:17:17,254 [INFO]: Anomaly-free metric segment: 13500-22000
+2025-05-31 14:17:17,254 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:17:17,292 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:17:37,367 [INFO]: The number of anomalous seqs: 1057
+2025-05-31 14:17:55,426 [INFO]: The number of anomalous seqs after ap clustering: 1055
+2025-05-31 14:17:55,426 [INFO]: The number of anomalous clusters: 75
+2025-05-31 14:17:55,557 [INFO]: Metric patterns dumped.
+2025-05-31 14:17:55,612 [INFO]: precision: 0.850, recall: 0.860, f1: 0.855
+2025-05-31 14:17:55,902 [INFO]: Experiment result plotted!
+2025-05-31 14:17:56,249 [INFO]: Loading metric patterns...
+2025-05-31 14:17:56,304 [INFO]: precision: 0.850, recall: 0.860, f1: 0.855
+2025-05-31 14:17:56,589 [INFO]: Experiment result plotted!
+2025-05-31 14:17:56,845 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:17:56,845 [INFO]: The number of subsequences to predict normality: 149158
+2025-05-31 14:17:59,122 [INFO]: precision: 0.586, recall: 0.366, f1: 0.450
+2025-05-31 14:17:59,588 [INFO]: Experiment result plotted!
+2025-05-31 14:17:59,886 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (43115f2a), m: 10, p: 99.2 ^^^^^^^^^^
+2025-05-31 14:17:59,886 [INFO]: Parameter settings:
+2025-05-31 14:17:59,886 [INFO]: Anomaly-free metric segment: 10000-15000
+2025-05-31 14:17:59,886 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:17:59,920 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:18:08,451 [INFO]: The number of anomalous seqs: 745
+2025-05-31 14:18:11,037 [INFO]: The number of anomalous seqs after ap clustering: 745
+2025-05-31 14:18:11,037 [INFO]: The number of anomalous clusters: 52
+2025-05-31 14:18:11,139 [INFO]: Metric patterns dumped.
+2025-05-31 14:18:11,179 [INFO]: precision: 0.798, recall: 0.704, f1: 0.748
+2025-05-31 14:18:11,387 [INFO]: Experiment result plotted!
+2025-05-31 14:18:11,587 [INFO]: Loading metric patterns...
+2025-05-31 14:18:11,627 [INFO]: precision: 0.798, recall: 0.704, f1: 0.748
+2025-05-31 14:18:11,934 [INFO]: Experiment result plotted!
+2025-05-31 14:18:12,124 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:18:12,124 [INFO]: The number of subsequences to predict normality: 110620
+2025-05-31 14:18:13,345 [INFO]: precision: 0.658, recall: 0.613, f1: 0.635
+2025-05-31 14:18:13,598 [INFO]: Experiment result plotted!
+2025-05-31 14:18:13,853 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (431a8542), m: 3, p: 98.5 ^^^^^^^^^^
+2025-05-31 14:18:13,853 [INFO]: Parameter settings:
+2025-05-31 14:18:13,853 [INFO]: Anomaly-free metric segment: 11355-15000
+2025-05-31 14:18:13,853 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:18:13,892 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:18:18,465 [INFO]: The number of anomalous seqs: 975
+2025-05-31 14:18:23,585 [INFO]: The number of anomalous seqs after ap clustering: 714
+2025-05-31 14:18:23,585 [INFO]: The number of anomalous clusters: 32
+2025-05-31 14:18:23,653 [INFO]: Metric patterns dumped.
+2025-05-31 14:18:23,680 [INFO]: precision: 0.702, recall: 0.888, f1: 0.784
+2025-05-31 14:18:23,876 [INFO]: Experiment result plotted!
+2025-05-31 14:18:24,074 [INFO]: Loading metric patterns...
+2025-05-31 14:18:24,101 [INFO]: precision: 0.702, recall: 0.888, f1: 0.784
+2025-05-31 14:18:24,394 [INFO]: Experiment result plotted!
+2025-05-31 14:18:24,575 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:18:24,575 [INFO]: The number of subsequences to predict normality: 111564
+2025-05-31 14:18:25,417 [INFO]: precision: 0.753, recall: 0.791, f1: 0.772
+2025-05-31 14:18:26,659 [INFO]: Experiment result plotted!
+2025-05-31 14:18:27,127 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (4d2af31a), m: 3, p: 95.5 ^^^^^^^^^^
+2025-05-31 14:18:27,127 [INFO]: Parameter settings:
+2025-05-31 14:18:27,127 [INFO]: Anomaly-free metric segment: 5000-25000
+2025-05-31 14:18:27,127 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:18:27,167 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:19:06,966 [INFO]: The number of anomalous seqs: 4675
+2025-05-31 14:21:22,838 [INFO]: The number of anomalous seqs after ap clustering: 3702
+2025-05-31 14:21:22,838 [INFO]: The number of anomalous clusters: 47
+2025-05-31 14:21:22,973 [INFO]: Metric patterns dumped.
+2025-05-31 14:21:23,025 [INFO]: precision: 0.993, recall: 0.642, f1: 0.780
+2025-05-31 14:21:24,274 [INFO]: Experiment result plotted!
+2025-05-31 14:21:24,691 [INFO]: Loading metric patterns...
+2025-05-31 14:21:24,740 [INFO]: precision: 0.993, recall: 0.642, f1: 0.780
+2025-05-31 14:21:26,062 [INFO]: Experiment result plotted!
+2025-05-31 14:21:26,496 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:21:26,496 [INFO]: The number of subsequences to predict normality: 111368
+2025-05-31 14:21:27,971 [INFO]: precision: 0.986, recall: 0.699, f1: 0.818
+2025-05-31 14:21:28,629 [INFO]: Experiment result plotted!
+2025-05-31 14:21:29,202 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (54350a12), m: 8, p: 99.7 ^^^^^^^^^^
+2025-05-31 14:21:29,202 [INFO]: Parameter settings:
+2025-05-31 14:21:29,202 [INFO]: Anomaly-free metric segment: 0-1200
+2025-05-31 14:21:29,202 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:21:29,237 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:21:29,404 [INFO]: The number of anomalous seqs: 23
+2025-05-31 14:21:29,549 [INFO]: The number of anomalous seqs after ap clustering: 23
+2025-05-31 14:21:29,549 [INFO]: The number of anomalous clusters: 13
+2025-05-31 14:21:29,564 [INFO]: Metric patterns dumped.
+2025-05-31 14:21:29,570 [INFO]: precision: 0.757, recall: 0.452, f1: 0.566
+2025-05-31 14:21:29,581 [INFO]: Experiment result plotted!
+2025-05-31 14:21:29,729 [INFO]: Loading metric patterns...
+2025-05-31 14:21:29,735 [INFO]: precision: 0.757, recall: 0.452, f1: 0.566
+2025-05-31 14:21:29,745 [INFO]: Experiment result plotted!
+2025-05-31 14:21:29,892 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:21:29,892 [INFO]: The number of subsequences to predict normality: 7609
+2025-05-31 14:21:30,085 [INFO]: precision: 0.565, recall: 0.481, f1: 0.520
+2025-05-31 14:21:30,107 [INFO]: Experiment result plotted!
+2025-05-31 14:21:30,232 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (55f8b8b8), m: 5, p: 99 ^^^^^^^^^^
+2025-05-31 14:21:30,233 [INFO]: Parameter settings:
+2025-05-31 14:21:30,233 [INFO]: Anomaly-free metric segment: 34500-46500
+2025-05-31 14:21:30,233 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:21:30,278 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:21:53,428 [INFO]: The number of anomalous seqs: 997
+2025-05-31 14:22:24,763 [INFO]: The number of anomalous seqs after ap clustering: 577
+2025-05-31 14:22:24,763 [INFO]: The number of anomalous clusters: 44
+2025-05-31 14:22:24,883 [INFO]: Metric patterns dumped.
+2025-05-31 14:22:24,929 [INFO]: precision: 0.474, recall: 0.205, f1: 0.287
+2025-05-31 14:22:25,104 [INFO]: Experiment result plotted!
+2025-05-31 14:22:25,359 [INFO]: Loading metric patterns...
+2025-05-31 14:22:25,409 [INFO]: precision: 0.474, recall: 0.205, f1: 0.287
+2025-05-31 14:22:25,604 [INFO]: Experiment result plotted!
+2025-05-31 14:22:25,844 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:22:25,844 [INFO]: The number of subsequences to predict normality: 149129
+2025-05-31 14:22:28,243 [INFO]: precision: 0.313, recall: 0.169, f1: 0.219
+2025-05-31 14:22:28,819 [INFO]: Experiment result plotted!
+2025-05-31 14:22:29,160 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (57051487), m: 3, p: 99.8 ^^^^^^^^^^
+2025-05-31 14:22:29,160 [INFO]: Parameter settings:
+2025-05-31 14:22:29,160 [INFO]: Anomaly-free metric segment: 0-2500
+2025-05-31 14:22:29,160 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:22:29,194 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:22:33,290 [INFO]: The number of anomalous seqs: 253
+2025-05-31 14:22:33,851 [INFO]: The number of anomalous seqs after ap clustering: 64
+2025-05-31 14:22:33,851 [INFO]: The number of anomalous clusters: 3
+2025-05-31 14:22:33,991 [INFO]: Metric patterns dumped.
+2025-05-31 14:22:34,050 [INFO]: precision: 1.000, recall: 0.819, f1: 0.901
+2025-05-31 14:22:34,074 [INFO]: Experiment result plotted!
+2025-05-31 14:22:34,193 [INFO]: Loading metric patterns...
+2025-05-31 14:22:34,253 [INFO]: precision: 1.000, recall: 0.819, f1: 0.901
+2025-05-31 14:22:34,279 [INFO]: Experiment result plotted!
+2025-05-31 14:22:34,381 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:22:34,381 [INFO]: The number of subsequences to predict normality: 111677
+2025-05-31 14:22:34,667 [INFO]: precision: 0.917, recall: 0.957, f1: 0.936
+2025-05-31 14:22:34,691 [INFO]: Experiment result plotted!
+2025-05-31 14:22:34,936 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (6a757df4), m: 6, p: 96 ^^^^^^^^^^
+2025-05-31 14:22:34,936 [INFO]: Parameter settings:
+2025-05-31 14:22:34,936 [INFO]: Anomaly-free metric segment: 6000-14000
+2025-05-31 14:22:34,936 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:22:34,972 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:22:52,134 [INFO]: The number of anomalous seqs: 4601
+2025-05-31 14:23:59,257 [INFO]: The number of anomalous seqs after ap clustering: 3620
+2025-05-31 14:23:59,257 [INFO]: The number of anomalous clusters: 98
+2025-05-31 14:23:59,386 [INFO]: Metric patterns dumped.
+2025-05-31 14:23:59,443 [INFO]: precision: 0.932, recall: 0.706, f1: 0.803
+2025-05-31 14:24:00,607 [INFO]: Experiment result plotted!
+2025-05-31 14:24:01,060 [INFO]: Loading metric patterns...
+2025-05-31 14:24:01,117 [INFO]: precision: 0.932, recall: 0.706, f1: 0.803
+2025-05-31 14:24:02,464 [INFO]: Experiment result plotted!
+2025-05-31 14:24:02,989 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:24:02,989 [INFO]: The number of subsequences to predict normality: 110871
+2025-05-31 14:24:05,779 [INFO]: precision: 0.802, recall: 0.664, f1: 0.727
+2025-05-31 14:24:06,713 [INFO]: Experiment result plotted!
+2025-05-31 14:24:07,042 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (6d1114ae), m: 6, p: 99.8 ^^^^^^^^^^
+2025-05-31 14:24:07,042 [INFO]: Parameter settings:
+2025-05-31 14:24:07,042 [INFO]: Anomaly-free metric segment: 0-8200
+2025-05-31 14:24:07,042 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:24:07,073 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:24:29,452 [INFO]: The number of anomalous seqs: 277
+2025-05-31 14:24:37,190 [INFO]: The number of anomalous seqs after ap clustering: 276
+2025-05-31 14:24:37,191 [INFO]: The number of anomalous clusters: 22
+2025-05-31 14:24:37,383 [INFO]: Metric patterns dumped.
+2025-05-31 14:24:37,463 [INFO]: precision: 0.246, recall: 0.319, f1: 0.278
+2025-05-31 14:24:37,673 [INFO]: Experiment result plotted!
+2025-05-31 14:24:37,967 [INFO]: Loading metric patterns...
+2025-05-31 14:24:38,048 [INFO]: precision: 0.246, recall: 0.319, f1: 0.278
+2025-05-31 14:24:38,154 [INFO]: Experiment result plotted!
+2025-05-31 14:24:38,441 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:24:38,441 [INFO]: The number of subsequences to predict normality: 149117
+2025-05-31 14:24:39,875 [INFO]: precision: 0.039, recall: 0.265, f1: 0.068
+2025-05-31 14:24:41,849 [INFO]: Experiment result plotted!
+2025-05-31 14:24:42,607 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (7103fa0f), m: 4, p: 99.8 ^^^^^^^^^^
+2025-05-31 14:24:42,608 [INFO]: Parameter settings:
+2025-05-31 14:24:42,608 [INFO]: Anomaly-free metric segment: 5500-11500
+2025-05-31 14:24:42,608 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:24:42,653 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:24:52,820 [INFO]: The number of anomalous seqs: 235
+2025-05-31 14:24:55,277 [INFO]: The number of anomalous seqs after ap clustering: 217
+2025-05-31 14:24:55,277 [INFO]: The number of anomalous clusters: 108
+2025-05-31 14:24:55,473 [INFO]: Metric patterns dumped.
+2025-05-31 14:24:55,545 [INFO]: precision: 0.250, recall: 0.972, f1: 0.398
+2025-05-31 14:24:55,642 [INFO]: Experiment result plotted!
+2025-05-31 14:24:55,839 [INFO]: Loading metric patterns...
+2025-05-31 14:24:55,913 [INFO]: precision: 0.250, recall: 0.972, f1: 0.398
+2025-05-31 14:24:56,015 [INFO]: Experiment result plotted!
+2025-05-31 14:24:56,352 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:24:56,352 [INFO]: The number of subsequences to predict normality: 108422
+2025-05-31 14:25:09,353 [INFO]: precision: 0.074, recall: 0.912, f1: 0.137
+2025-05-31 14:25:09,522 [INFO]: Experiment result plotted!
+2025-05-31 14:25:09,708 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (847e8ecc), m: 4, p: 99.4 ^^^^^^^^^^
+2025-05-31 14:25:09,708 [INFO]: Parameter settings:
+2025-05-31 14:25:09,708 [INFO]: Anomaly-free metric segment: 12500-19500
+2025-05-31 14:25:09,708 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:25:09,745 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:25:26,963 [INFO]: The number of anomalous seqs: 761
+2025-05-31 14:25:41,581 [INFO]: The number of anomalous seqs after ap clustering: 761
+2025-05-31 14:25:41,581 [INFO]: The number of anomalous clusters: 81
+2025-05-31 14:25:41,743 [INFO]: Metric patterns dumped.
+2025-05-31 14:25:41,808 [INFO]: precision: 0.548, recall: 0.587, f1: 0.567
+2025-05-31 14:25:42,142 [INFO]: Experiment result plotted!
+2025-05-31 14:25:42,373 [INFO]: Loading metric patterns...
+2025-05-31 14:25:42,433 [INFO]: precision: 0.548, recall: 0.587, f1: 0.567
+2025-05-31 14:25:42,678 [INFO]: Experiment result plotted!
+2025-05-31 14:25:42,921 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:25:42,921 [INFO]: The number of subsequences to predict normality: 149120
+2025-05-31 14:25:45,757 [INFO]: precision: 0.213, recall: 0.649, f1: 0.321
+2025-05-31 14:25:46,438 [INFO]: Experiment result plotted!
+2025-05-31 14:25:46,720 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (8723f0fb), m: 4, p: 99.9 ^^^^^^^^^^
+2025-05-31 14:25:46,720 [INFO]: Parameter settings:
+2025-05-31 14:25:46,720 [INFO]: Anomaly-free metric segment: 25000-45000
+2025-05-31 14:25:46,720 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:25:46,752 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:26:26,939 [INFO]: The number of anomalous seqs: 102
+2025-05-31 14:27:25,603 [INFO]: The number of anomalous seqs after ap clustering: 101
+2025-05-31 14:27:25,603 [INFO]: The number of anomalous clusters: 21
+2025-05-31 14:27:25,727 [INFO]: Metric patterns dumped.
+2025-05-31 14:27:25,771 [INFO]: precision: 0.511, recall: 0.221, f1: 0.309
+2025-05-31 14:27:25,805 [INFO]: Experiment result plotted!
+2025-05-31 14:27:25,997 [INFO]: Loading metric patterns...
+2025-05-31 14:27:26,041 [INFO]: precision: 0.511, recall: 0.221, f1: 0.309
+2025-05-31 14:27:26,077 [INFO]: Experiment result plotted!
+2025-05-31 14:27:26,260 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:27:26,260 [INFO]: The number of subsequences to predict normality: 149115
+2025-05-31 14:27:28,158 [INFO]: precision: 0.066, recall: 0.212, f1: 0.100
+2025-05-31 14:27:28,992 [INFO]: Experiment result plotted!
+2025-05-31 14:27:29,338 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (9c639a46), m: 5, p: 98.2 ^^^^^^^^^^
+2025-05-31 14:27:29,338 [INFO]: Parameter settings:
+2025-05-31 14:27:29,338 [INFO]: Anomaly-free metric segment: 25200-32000
+2025-05-31 14:27:29,338 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:27:29,369 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:27:39,762 [INFO]: The number of anomalous seqs: 1370
+2025-05-31 14:27:54,510 [INFO]: The number of anomalous seqs after ap clustering: 1364
+2025-05-31 14:27:54,511 [INFO]: The number of anomalous clusters: 43
+2025-05-31 14:27:54,633 [INFO]: Metric patterns dumped.
+2025-05-31 14:27:54,685 [INFO]: precision: 0.671, recall: 0.750, f1: 0.708
+2025-05-31 14:27:55,394 [INFO]: Experiment result plotted!
+2025-05-31 14:27:55,764 [INFO]: Loading metric patterns...
+2025-05-31 14:27:55,819 [INFO]: precision: 0.671, recall: 0.750, f1: 0.708
+2025-05-31 14:27:56,391 [INFO]: Experiment result plotted!
+2025-05-31 14:27:56,942 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:27:56,942 [INFO]: The number of subsequences to predict normality: 110632
+2025-05-31 14:27:58,348 [INFO]: precision: 0.353, recall: 0.605, f1: 0.446
+2025-05-31 14:27:58,846 [INFO]: Experiment result plotted!
+2025-05-31 14:27:59,220 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (a07ac296), m: 4, p: 99 ^^^^^^^^^^
+2025-05-31 14:27:59,220 [INFO]: Parameter settings:
+2025-05-31 14:27:59,220 [INFO]: Anomaly-free metric segment: 10500-16000
+2025-05-31 14:27:59,221 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:27:59,261 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:28:10,728 [INFO]: The number of anomalous seqs: 905
+2025-05-31 14:28:17,097 [INFO]: The number of anomalous seqs after ap clustering: 905
+2025-05-31 14:28:17,097 [INFO]: The number of anomalous clusters: 13
+2025-05-31 14:28:17,207 [INFO]: Metric patterns dumped.
+2025-05-31 14:28:17,254 [INFO]: precision: 0.686, recall: 0.370, f1: 0.481
+2025-05-31 14:28:17,689 [INFO]: Experiment result plotted!
+2025-05-31 14:28:17,962 [INFO]: Loading metric patterns...
+2025-05-31 14:28:18,007 [INFO]: precision: 0.686, recall: 0.370, f1: 0.481
+2025-05-31 14:28:18,268 [INFO]: Experiment result plotted!
+2025-05-31 14:28:18,650 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:28:18,650 [INFO]: The number of subsequences to predict normality: 111304
+2025-05-31 14:28:19,150 [INFO]: precision: 0.245, recall: 0.606, f1: 0.349
+2025-05-31 14:28:20,857 [INFO]: Experiment result plotted!
+2025-05-31 14:28:21,383 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (a8c06b47), m: 3, p: 97 ^^^^^^^^^^
+2025-05-31 14:28:21,384 [INFO]: Parameter settings:
+2025-05-31 14:28:21,384 [INFO]: Anomaly-free metric segment: 750-1480
+2025-05-31 14:28:21,384 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:28:21,419 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:28:21,521 [INFO]: The number of anomalous seqs: 222
+2025-05-31 14:28:21,724 [INFO]: The number of anomalous seqs after ap clustering: 191
+2025-05-31 14:28:21,724 [INFO]: The number of anomalous clusters: 18
+2025-05-31 14:28:21,735 [INFO]: Metric patterns dumped.
+2025-05-31 14:28:21,741 [INFO]: precision: 0.727, recall: 0.837, f1: 0.778
+2025-05-31 14:28:21,814 [INFO]: Experiment result plotted!
+2025-05-31 14:28:21,970 [INFO]: Loading metric patterns...
+2025-05-31 14:28:21,976 [INFO]: precision: 0.727, recall: 0.837, f1: 0.778
+2025-05-31 14:28:22,047 [INFO]: Experiment result plotted!
+2025-05-31 14:28:22,200 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:28:22,200 [INFO]: The number of subsequences to predict normality: 7576
+2025-05-31 14:28:22,353 [INFO]: precision: 0.287, recall: 0.780, f1: 0.419
+2025-05-31 14:28:22,426 [INFO]: Experiment result plotted!
+2025-05-31 14:28:22,589 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (adb2fde9), m: 3, p: 98.6 ^^^^^^^^^^
+2025-05-31 14:28:22,589 [INFO]: Parameter settings:
+2025-05-31 14:28:22,589 [INFO]: Anomaly-free metric segment: 33100-39400
+2025-05-31 14:28:22,589 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:28:22,634 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:28:36,798 [INFO]: The number of anomalous seqs: 1496
+2025-05-31 14:28:52,713 [INFO]: The number of anomalous seqs after ap clustering: 1017
+2025-05-31 14:28:52,713 [INFO]: The number of anomalous clusters: 48
+2025-05-31 14:28:52,837 [INFO]: Metric patterns dumped.
+2025-05-31 14:28:52,888 [INFO]: precision: 0.895, recall: 0.884, f1: 0.889
+2025-05-31 14:28:53,190 [INFO]: Experiment result plotted!
+2025-05-31 14:28:53,453 [INFO]: Loading metric patterns...
+2025-05-31 14:28:53,504 [INFO]: precision: 0.895, recall: 0.884, f1: 0.889
+2025-05-31 14:28:53,980 [INFO]: Experiment result plotted!
+2025-05-31 14:28:54,275 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:28:54,275 [INFO]: The number of subsequences to predict normality: 149153
+2025-05-31 14:28:56,173 [INFO]: precision: 0.774, recall: 0.437, f1: 0.559
+2025-05-31 14:28:56,465 [INFO]: Experiment result plotted!
+2025-05-31 14:28:56,853 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (ba5f3328), m: 6, p: 99.2 ^^^^^^^^^^
+2025-05-31 14:28:56,853 [INFO]: Parameter settings:
+2025-05-31 14:28:56,854 [INFO]: Anomaly-free metric segment: 36000-46000
+2025-05-31 14:28:56,854 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:28:56,895 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:29:18,100 [INFO]: The number of anomalous seqs: 801
+2025-05-31 14:29:31,120 [INFO]: The number of anomalous seqs after ap clustering: 551
+2025-05-31 14:29:31,121 [INFO]: The number of anomalous clusters: 56
+2025-05-31 14:29:31,232 [INFO]: Metric patterns dumped.
+2025-05-31 14:29:31,276 [INFO]: precision: 0.472, recall: 0.204, f1: 0.285
+2025-05-31 14:29:31,435 [INFO]: Experiment result plotted!
+2025-05-31 14:29:31,658 [INFO]: Loading metric patterns...
+2025-05-31 14:29:31,705 [INFO]: precision: 0.472, recall: 0.204, f1: 0.285
+2025-05-31 14:29:31,964 [INFO]: Experiment result plotted!
+2025-05-31 14:29:32,176 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:29:32,177 [INFO]: The number of subsequences to predict normality: 149127
+2025-05-31 14:29:34,589 [INFO]: precision: 0.661, recall: 0.217, f1: 0.327
+2025-05-31 14:29:34,989 [INFO]: Experiment result plotted!
+2025-05-31 14:29:35,337 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (c02607e8), m: 3, p: 99 ^^^^^^^^^^
+2025-05-31 14:29:35,337 [INFO]: Parameter settings:
+2025-05-31 14:29:35,337 [INFO]: Anomaly-free metric segment: 1000-2000
+2025-05-31 14:29:35,337 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:29:35,380 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:29:35,691 [INFO]: The number of anomalous seqs: 68
+2025-05-31 14:29:35,800 [INFO]: The number of anomalous seqs after ap clustering: 3
+2025-05-31 14:29:35,800 [INFO]: The number of anomalous clusters: 3
+2025-05-31 14:29:35,811 [INFO]: Metric patterns dumped.
+2025-05-31 14:29:35,816 [INFO]: precision: 0.600, recall: 0.500, f1: 0.545
+2025-05-31 14:29:35,818 [INFO]: Experiment result plotted!
+2025-05-31 14:29:35,949 [INFO]: Loading metric patterns...
+2025-05-31 14:29:35,954 [INFO]: precision: 0.600, recall: 0.500, f1: 0.545
+2025-05-31 14:29:35,957 [INFO]: Experiment result plotted!
+2025-05-31 14:29:36,089 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:29:36,089 [INFO]: The number of subsequences to predict normality: 8782
+2025-05-31 14:29:36,253 [INFO]: precision: 0.625, recall: 0.082, f1: 0.145
+2025-05-31 14:29:36,258 [INFO]: Experiment result plotted!
+2025-05-31 14:29:36,399 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (c69a50cf), m: 4, p: 99.5 ^^^^^^^^^^
+2025-05-31 14:29:36,399 [INFO]: Parameter settings:
+2025-05-31 14:29:36,399 [INFO]: Anomaly-free metric segment: 12500-22000
+2025-05-31 14:29:36,399 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:29:36,445 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:29:58,975 [INFO]: The number of anomalous seqs: 622
+2025-05-31 14:30:14,706 [INFO]: The number of anomalous seqs after ap clustering: 622
+2025-05-31 14:30:14,706 [INFO]: The number of anomalous clusters: 102
+2025-05-31 14:30:14,843 [INFO]: Metric patterns dumped.
+2025-05-31 14:30:14,896 [INFO]: precision: 0.892, recall: 0.856, f1: 0.874
+2025-05-31 14:30:15,079 [INFO]: Experiment result plotted!
+2025-05-31 14:30:15,289 [INFO]: Loading metric patterns...
+2025-05-31 14:30:15,344 [INFO]: precision: 0.892, recall: 0.856, f1: 0.874
+2025-05-31 14:30:15,623 [INFO]: Experiment result plotted!
+2025-05-31 14:30:15,810 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:30:15,810 [INFO]: The number of subsequences to predict normality: 149156
+2025-05-31 14:30:19,334 [INFO]: precision: 0.552, recall: 0.702, f1: 0.618
+2025-05-31 14:30:19,595 [INFO]: Experiment result plotted!
+2025-05-31 14:30:19,875 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (da10a69f), m: 20, p: 99 ^^^^^^^^^^
+2025-05-31 14:30:19,875 [INFO]: Parameter settings:
+2025-05-31 14:30:19,875 [INFO]: Anomaly-free metric segment: 5500-19000
+2025-05-31 14:30:19,875 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:30:19,912 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:30:43,065 [INFO]: The number of anomalous seqs: 887
+2025-05-31 14:30:51,869 [INFO]: The number of anomalous seqs after ap clustering: 695
+2025-05-31 14:30:51,870 [INFO]: The number of anomalous clusters: 99
+2025-05-31 14:30:51,985 [INFO]: Metric patterns dumped.
+2025-05-31 14:30:52,025 [INFO]: precision: 0.475, recall: 0.121, f1: 0.192
+2025-05-31 14:30:52,220 [INFO]: Experiment result plotted!
+2025-05-31 14:30:52,473 [INFO]: Loading metric patterns...
+2025-05-31 14:30:52,512 [INFO]: precision: 0.475, recall: 0.121, f1: 0.192
+2025-05-31 14:30:52,704 [INFO]: Experiment result plotted!
+2025-05-31 14:30:52,947 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:30:52,947 [INFO]: The number of subsequences to predict normality: 107148
+2025-05-31 14:30:55,831 [INFO]: precision: 0.301, recall: 0.238, f1: 0.266
+2025-05-31 14:30:56,955 [INFO]: Experiment result plotted!
+2025-05-31 14:30:57,369 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (e0747cad), m: 3, p: 99 ^^^^^^^^^^
+2025-05-31 14:30:57,369 [INFO]: Parameter settings:
+2025-05-31 14:30:57,369 [INFO]: Anomaly-free metric segment: 1000-2000
+2025-05-31 14:30:57,369 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:30:57,407 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:30:57,540 [INFO]: The number of anomalous seqs: 68
+2025-05-31 14:30:57,707 [INFO]: The number of anomalous seqs after ap clustering: 6
+2025-05-31 14:30:57,707 [INFO]: The number of anomalous clusters: 4
+2025-05-31 14:30:57,716 [INFO]: Metric patterns dumped.
+2025-05-31 14:30:57,721 [INFO]: precision: 0.900, recall: 0.429, f1: 0.581
+2025-05-31 14:30:57,725 [INFO]: Experiment result plotted!
+2025-05-31 14:30:57,857 [INFO]: Loading metric patterns...
+2025-05-31 14:30:57,862 [INFO]: precision: 0.900, recall: 0.429, f1: 0.581
+2025-05-31 14:30:57,866 [INFO]: Experiment result plotted!
+2025-05-31 14:30:57,995 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:30:57,995 [INFO]: The number of subsequences to predict normality: 8782
+2025-05-31 14:30:58,138 [INFO]: precision: 0.800, recall: 0.034, f1: 0.066
+2025-05-31 14:30:58,142 [INFO]: Experiment result plotted!
+2025-05-31 14:30:58,272 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (f0932edd), m: 4, p: 97 ^^^^^^^^^^
+2025-05-31 14:30:58,272 [INFO]: Parameter settings:
+2025-05-31 14:30:58,272 [INFO]: Anomaly-free metric segment: 2200-7950
+2025-05-31 14:30:58,273 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:30:58,317 [INFO]: Loading metric patterns...
+2025-05-31 14:30:58,390 [INFO]: precision: 0.951, recall: 0.592, f1: 0.730
+2025-05-31 14:30:59,660 [INFO]: Experiment result plotted!
+2025-05-31 14:31:00,085 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:31:00,085 [INFO]: The number of subsequences to predict normality: 112146
+2025-05-31 14:31:04,091 [INFO]: precision: 0.377, recall: 0.831, f1: 0.519
+2025-05-31 14:31:05,776 [INFO]: Experiment result plotted!
+2025-05-31 14:31:06,264 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (ffb82d38), m: 4, p: 94.5 ^^^^^^^^^^
+2025-05-31 14:31:06,265 [INFO]: Parameter settings:
+2025-05-31 14:31:06,265 [INFO]: Anomaly-free metric segment: 3000-24000
+2025-05-31 14:31:06,265 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:31:06,295 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:31:49,071 [INFO]: The number of anomalous seqs: 5763
+2025-05-31 14:37:15,347 [INFO]: The number of anomalous seqs after ap clustering: 5157
+2025-05-31 14:37:15,347 [INFO]: The number of anomalous clusters: 20
+2025-05-31 14:37:15,475 [INFO]: Metric patterns dumped.
+2025-05-31 14:37:15,529 [INFO]: precision: 0.994, recall: 0.894, f1: 0.942
+2025-05-31 14:37:17,117 [INFO]: Experiment result plotted!
+2025-05-31 14:37:17,633 [INFO]: Loading metric patterns...
+2025-05-31 14:37:17,689 [INFO]: precision: 0.994, recall: 0.894, f1: 0.942
+2025-05-31 14:37:19,513 [INFO]: Experiment result plotted!
+2025-05-31 14:37:20,038 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:37:20,038 [INFO]: The number of subsequences to predict normality: 111393
+2025-05-31 14:37:20,718 [INFO]: precision: 0.990, recall: 0.593, f1: 0.742
+2025-05-31 14:37:21,619 [INFO]: Experiment result plotted!
+2025-05-31 14:37:21,895 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (6efa3a07), m: 12, p: 98 ^^^^^^^^^^
+2025-05-31 14:37:21,895 [INFO]: Parameter settings:
+2025-05-31 14:37:21,895 [INFO]: Anomaly-free metric segment: 28000-42000
+2025-05-31 14:37:21,895 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:37:21,929 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:37:49,287 [INFO]: The number of anomalous seqs: 2063
+2025-05-31 14:38:22,155 [INFO]: The number of anomalous seqs after ap clustering: 2063
+2025-05-31 14:38:22,155 [INFO]: The number of anomalous clusters: 53
+2025-05-31 14:38:22,300 [INFO]: Metric patterns dumped.
+2025-05-31 14:38:22,353 [INFO]: precision: 0.533, recall: 0.501, f1: 0.517
+2025-05-31 14:38:23,019 [INFO]: Experiment result plotted!
+2025-05-31 14:38:23,346 [INFO]: Loading metric patterns...
+2025-05-31 14:38:23,396 [INFO]: precision: 0.533, recall: 0.501, f1: 0.517
+2025-05-31 14:38:24,092 [INFO]: Experiment result plotted!
+2025-05-31 14:38:24,412 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:38:24,412 [INFO]: The number of subsequences to predict normality: 149137
+2025-05-31 14:38:26,144 [INFO]: precision: 0.344, recall: 0.483, f1: 0.402
+2025-05-31 14:38:28,016 [INFO]: Experiment result plotted!
+2025-05-31 14:38:28,790 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (ab216663), m: 4, p: 99 ^^^^^^^^^^
+2025-05-31 14:38:28,790 [INFO]: Parameter settings:
+2025-05-31 14:38:28,790 [INFO]: Anomaly-free metric segment: 700-2100
+2025-05-31 14:38:28,790 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:38:28,818 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:38:29,018 [INFO]: The number of anomalous seqs: 91
+2025-05-31 14:38:29,261 [INFO]: The number of anomalous seqs after ap clustering: 51
+2025-05-31 14:38:29,261 [INFO]: The number of anomalous clusters: 1
+2025-05-31 14:38:29,273 [INFO]: Metric patterns dumped.
+2025-05-31 14:38:29,280 [INFO]: precision: 0.970, recall: 0.454, f1: 0.618
+2025-05-31 14:38:29,300 [INFO]: Experiment result plotted!
+2025-05-31 14:38:29,438 [INFO]: Loading metric patterns...
+2025-05-31 14:38:29,444 [INFO]: precision: 0.970, recall: 0.454, f1: 0.618
+2025-05-31 14:38:29,463 [INFO]: Experiment result plotted!
+2025-05-31 14:38:29,580 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:38:29,580 [INFO]: The number of subsequences to predict normality: 10777
+2025-05-31 14:38:29,726 [INFO]: precision: 0.652, recall: 0.241, f1: 0.352
+2025-05-31 14:38:29,749 [INFO]: Experiment result plotted!
+2025-05-31 14:38:29,875 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (0efb375b), m: 3, p: 99 ^^^^^^^^^^
+2025-05-31 14:38:29,875 [INFO]: Parameter settings:
+2025-05-31 14:38:29,875 [INFO]: Anomaly-free metric segment: 1000-6000
+2025-05-31 14:38:29,875 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:38:29,914 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:38:30,324 [INFO]: The number of anomalous seqs: 28
+2025-05-31 14:38:32,065 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-05-31 14:38:32,065 [INFO]: The number of anomalous clusters: 0
+2025-05-31 14:38:32,073 [INFO]: Metric patterns dumped.
+2025-05-31 14:38:32,073 [INFO]: No anomalous patterns detected!
+2025-05-31 14:38:32,073 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-05-31 14:38:32,074 [INFO]: Experiment result plotted!
+2025-05-31 14:38:32,187 [INFO]: Loading metric patterns...
+2025-05-31 14:38:32,188 [INFO]: No anomalous patterns detected!
+2025-05-31 14:38:32,188 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-05-31 14:38:32,189 [INFO]: Experiment result plotted!
+2025-05-31 14:38:32,291 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:38:32,291 [INFO]: The number of subsequences to predict normality: 8782
+2025-05-31 14:38:32,435 [INFO]: No anomalous patterns detected!
+2025-05-31 14:38:32,436 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-05-31 14:38:32,438 [INFO]: Experiment result plotted!
+2025-05-31 14:38:32,559 [INFO]: ^^^^^^^^^^ Dataset: aiops18 (301c70d8), m: 3, p: 99.2 ^^^^^^^^^^
+2025-05-31 14:38:32,559 [INFO]: Parameter settings:
+2025-05-31 14:38:32,559 [INFO]: Anomaly-free metric segment: 700-1200
+2025-05-31 14:38:32,559 [INFO]: Adaptive pattern learning: False
+2025-05-31 14:38:32,599 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-05-31 14:38:32,693 [INFO]: The number of anomalous seqs: 61
+2025-05-31 14:38:32,759 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-05-31 14:38:32,759 [INFO]: The number of anomalous clusters: 0
+2025-05-31 14:38:32,769 [INFO]: Metric patterns dumped.
+2025-05-31 14:38:32,769 [INFO]: No anomalous patterns detected!
+2025-05-31 14:38:32,769 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-05-31 14:38:32,771 [INFO]: Experiment result plotted!
+2025-05-31 14:38:32,896 [INFO]: Loading metric patterns...
+2025-05-31 14:38:32,896 [INFO]: No anomalous patterns detected!
+2025-05-31 14:38:32,897 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-05-31 14:38:32,898 [INFO]: Experiment result plotted!
+2025-05-31 14:38:33,017 [INFO]: Online mode without adaptive pattern learning...
+2025-05-31 14:38:33,017 [INFO]: The number of subsequences to predict normality: 8782
+2025-05-31 14:38:33,122 [INFO]: No anomalous patterns detected!
+2025-05-31 14:38:33,123 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-05-31 14:38:33,125 [INFO]: Experiment result plotted!

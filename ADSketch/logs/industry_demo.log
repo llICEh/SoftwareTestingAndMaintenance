@@ -1,0 +1,1269 @@
+2025-06-02 00:22:05,581 [INFO]: ^^^^^^^^^^^^^^^ Offline anomaly detection for Industry ^^^^^^^^^^^^^^^
+2025-06-02 00:22:05,586 [INFO]: ============================================================
+2025-06-02 00:22:05,586 [INFO]: Dataset: industry (e59c1d14), m: 15, p: 99.5
+2025-06-02 00:22:19,335 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:19,464 [INFO]: The number of anomalous seqs after ap clustering: 18
+2025-06-02 00:22:19,464 [INFO]: The number of anomalous clusters: 5
+2025-06-02 00:22:19,474 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:19,480 [INFO]: precision: 1.000, recall: 0.953, f1: 0.976
+2025-06-02 00:22:19,631 [INFO]: Experiment result plotted!
+2025-06-02 00:22:19,789 [INFO]: ^^^^^^^^^^^^^^^ Online anomaly detection for Industry ^^^^^^^^^^^^^^^
+2025-06-02 00:22:19,789 [INFO]: ^^^^^^^^^^ Dataset: industry (e59c1d14), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:19,789 [INFO]: Parameter settings:
+2025-06-02 00:22:19,789 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:19,798 [INFO]: Loading metric patterns...
+2025-06-02 00:22:19,802 [INFO]: precision: 1.000, recall: 0.953, f1: 0.976
+2025-06-02 00:22:19,811 [INFO]: Experiment result plotted!
+2025-06-02 00:22:19,935 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:19,936 [INFO]: The number of subsequences to predict normality: 4150
+2025-06-02 00:22:20,039 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:20,040 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:20,042 [INFO]: Experiment result plotted!
+2025-06-02 00:22:20,167 [INFO]: ^^^^^^^^^^ Dataset: industry (72e4a184), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:20,167 [INFO]: Parameter settings:
+2025-06-02 00:22:20,167 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:20,174 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:20,483 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:20,677 [INFO]: The number of anomalous seqs after ap clustering: 19
+2025-06-02 00:22:20,678 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:22:20,689 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:20,694 [INFO]: precision: 1.000, recall: 0.930, f1: 0.964
+2025-06-02 00:22:20,705 [INFO]: Experiment result plotted!
+2025-06-02 00:22:20,850 [INFO]: Loading metric patterns...
+2025-06-02 00:22:20,855 [INFO]: precision: 1.000, recall: 0.930, f1: 0.964
+2025-06-02 00:22:20,865 [INFO]: Experiment result plotted!
+2025-06-02 00:22:21,006 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:21,006 [INFO]: The number of subsequences to predict normality: 4181
+2025-06-02 00:22:21,114 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:21,114 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:21,118 [INFO]: Experiment result plotted!
+2025-06-02 00:22:21,258 [INFO]: ^^^^^^^^^^ Dataset: industry (52ab4439), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:21,258 [INFO]: Parameter settings:
+2025-06-02 00:22:21,258 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:21,265 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:21,439 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:21,603 [INFO]: The number of anomalous seqs after ap clustering: 21
+2025-06-02 00:22:21,603 [INFO]: The number of anomalous clusters: 7
+2025-06-02 00:22:21,614 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:21,622 [INFO]: precision: 0.975, recall: 0.929, f1: 0.951
+2025-06-02 00:22:21,636 [INFO]: Experiment result plotted!
+2025-06-02 00:22:21,795 [INFO]: Loading metric patterns...
+2025-06-02 00:22:21,801 [INFO]: precision: 0.975, recall: 0.929, f1: 0.951
+2025-06-02 00:22:21,813 [INFO]: Experiment result plotted!
+2025-06-02 00:22:21,967 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:21,967 [INFO]: The number of subsequences to predict normality: 4157
+2025-06-02 00:22:22,085 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:22,086 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:22,089 [INFO]: Experiment result plotted!
+2025-06-02 00:22:22,234 [INFO]: ^^^^^^^^^^ Dataset: industry (d23f3d62), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:22,234 [INFO]: Parameter settings:
+2025-06-02 00:22:22,234 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:22,242 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:22,452 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:22,626 [INFO]: The number of anomalous seqs after ap clustering: 12
+2025-06-02 00:22:22,627 [INFO]: The number of anomalous clusters: 4
+2025-06-02 00:22:22,639 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:22,645 [INFO]: precision: 1.000, recall: 0.628, f1: 0.771
+2025-06-02 00:22:22,655 [INFO]: Experiment result plotted!
+2025-06-02 00:22:22,828 [INFO]: Loading metric patterns...
+2025-06-02 00:22:22,834 [INFO]: precision: 1.000, recall: 0.628, f1: 0.771
+2025-06-02 00:22:22,843 [INFO]: Experiment result plotted!
+2025-06-02 00:22:23,010 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:23,011 [INFO]: The number of subsequences to predict normality: 4156
+2025-06-02 00:22:23,136 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:23,137 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:23,140 [INFO]: Experiment result plotted!
+2025-06-02 00:22:23,281 [INFO]: ^^^^^^^^^^ Dataset: industry (072d9aad), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:23,281 [INFO]: Parameter settings:
+2025-06-02 00:22:23,281 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:23,289 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:23,469 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:23,637 [INFO]: The number of anomalous seqs after ap clustering: 18
+2025-06-02 00:22:23,637 [INFO]: The number of anomalous clusters: 5
+2025-06-02 00:22:23,648 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:23,653 [INFO]: precision: 1.000, recall: 0.977, f1: 0.988
+2025-06-02 00:22:23,664 [INFO]: Experiment result plotted!
+2025-06-02 00:22:23,815 [INFO]: Loading metric patterns...
+2025-06-02 00:22:23,820 [INFO]: precision: 1.000, recall: 0.977, f1: 0.988
+2025-06-02 00:22:23,831 [INFO]: Experiment result plotted!
+2025-06-02 00:22:23,972 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:23,973 [INFO]: The number of subsequences to predict normality: 4157
+2025-06-02 00:22:24,106 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:24,107 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:24,110 [INFO]: Experiment result plotted!
+2025-06-02 00:22:24,283 [INFO]: ^^^^^^^^^^ Dataset: industry (cb1ed9c3), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:24,283 [INFO]: Parameter settings:
+2025-06-02 00:22:24,284 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:24,292 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:24,508 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:24,683 [INFO]: The number of anomalous seqs after ap clustering: 20
+2025-06-02 00:22:24,683 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:22:24,695 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:24,700 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:24,713 [INFO]: Experiment result plotted!
+2025-06-02 00:22:24,872 [INFO]: Loading metric patterns...
+2025-06-02 00:22:24,877 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:24,888 [INFO]: Experiment result plotted!
+2025-06-02 00:22:25,035 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:25,036 [INFO]: The number of subsequences to predict normality: 4147
+2025-06-02 00:22:25,157 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:25,158 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:25,161 [INFO]: Experiment result plotted!
+2025-06-02 00:22:25,333 [INFO]: ^^^^^^^^^^ Dataset: industry (c1471b75), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:25,333 [INFO]: Parameter settings:
+2025-06-02 00:22:25,333 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:25,342 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:25,557 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:25,778 [INFO]: The number of anomalous seqs after ap clustering: 18
+2025-06-02 00:22:25,779 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:22:25,790 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:25,796 [INFO]: precision: 0.909, recall: 1.000, f1: 0.952
+2025-06-02 00:22:25,808 [INFO]: Experiment result plotted!
+2025-06-02 00:22:25,975 [INFO]: Loading metric patterns...
+2025-06-02 00:22:25,981 [INFO]: precision: 0.909, recall: 1.000, f1: 0.952
+2025-06-02 00:22:25,993 [INFO]: Experiment result plotted!
+2025-06-02 00:22:26,160 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:26,161 [INFO]: The number of subsequences to predict normality: 4171
+2025-06-02 00:22:26,278 [INFO]: precision: 0.984, recall: 0.968, f1: 0.976
+2025-06-02 00:22:26,296 [INFO]: Experiment result plotted!
+2025-06-02 00:22:26,450 [INFO]: ^^^^^^^^^^ Dataset: industry (6617b008), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:26,450 [INFO]: Parameter settings:
+2025-06-02 00:22:26,450 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:26,458 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:26,654 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:26,820 [INFO]: The number of anomalous seqs after ap clustering: 20
+2025-06-02 00:22:26,821 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:22:26,831 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:26,837 [INFO]: precision: 1.000, recall: 0.977, f1: 0.988
+2025-06-02 00:22:26,850 [INFO]: Experiment result plotted!
+2025-06-02 00:22:27,001 [INFO]: Loading metric patterns...
+2025-06-02 00:22:27,007 [INFO]: precision: 1.000, recall: 0.977, f1: 0.988
+2025-06-02 00:22:27,018 [INFO]: Experiment result plotted!
+2025-06-02 00:22:27,164 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:27,164 [INFO]: The number of subsequences to predict normality: 4148
+2025-06-02 00:22:27,273 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:27,274 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:27,277 [INFO]: Experiment result plotted!
+2025-06-02 00:22:27,417 [INFO]: ^^^^^^^^^^ Dataset: industry (be2ee248), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:27,418 [INFO]: Parameter settings:
+2025-06-02 00:22:27,418 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:27,425 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:27,609 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:27,765 [INFO]: The number of anomalous seqs after ap clustering: 18
+2025-06-02 00:22:27,765 [INFO]: The number of anomalous clusters: 5
+2025-06-02 00:22:27,776 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:27,781 [INFO]: precision: 1.000, recall: 0.977, f1: 0.988
+2025-06-02 00:22:27,792 [INFO]: Experiment result plotted!
+2025-06-02 00:22:27,951 [INFO]: Loading metric patterns...
+2025-06-02 00:22:27,957 [INFO]: precision: 1.000, recall: 0.977, f1: 0.988
+2025-06-02 00:22:27,968 [INFO]: Experiment result plotted!
+2025-06-02 00:22:28,116 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:28,116 [INFO]: The number of subsequences to predict normality: 4153
+2025-06-02 00:22:28,221 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:28,222 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:28,224 [INFO]: Experiment result plotted!
+2025-06-02 00:22:28,370 [INFO]: ^^^^^^^^^^ Dataset: industry (54b3ad35), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:28,370 [INFO]: Parameter settings:
+2025-06-02 00:22:28,370 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:28,378 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:28,697 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:28,883 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:28,883 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:28,896 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:28,896 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:28,896 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:28,898 [INFO]: Experiment result plotted!
+2025-06-02 00:22:29,056 [INFO]: Loading metric patterns...
+2025-06-02 00:22:29,057 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:29,057 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:29,059 [INFO]: Experiment result plotted!
+2025-06-02 00:22:29,204 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:29,205 [INFO]: The number of subsequences to predict normality: 4165
+2025-06-02 00:22:29,320 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:29,321 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:29,324 [INFO]: Experiment result plotted!
+2025-06-02 00:22:29,471 [INFO]: ^^^^^^^^^^ Dataset: industry (ba58e8c3), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:29,471 [INFO]: Parameter settings:
+2025-06-02 00:22:29,471 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:29,480 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:29,674 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:29,825 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:29,825 [INFO]: The number of anomalous clusters: 8
+2025-06-02 00:22:29,837 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:29,843 [INFO]: precision: 0.941, recall: 0.658, f1: 0.774
+2025-06-02 00:22:29,857 [INFO]: Experiment result plotted!
+2025-06-02 00:22:30,043 [INFO]: Loading metric patterns...
+2025-06-02 00:22:30,049 [INFO]: precision: 0.941, recall: 0.658, f1: 0.774
+2025-06-02 00:22:30,062 [INFO]: Experiment result plotted!
+2025-06-02 00:22:30,228 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:30,228 [INFO]: The number of subsequences to predict normality: 4158
+2025-06-02 00:22:30,389 [INFO]: precision: 1.000, recall: 0.423, f1: 0.594
+2025-06-02 00:22:30,402 [INFO]: Experiment result plotted!
+2025-06-02 00:22:30,579 [INFO]: ^^^^^^^^^^ Dataset: industry (3f5037fd), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:30,579 [INFO]: Parameter settings:
+2025-06-02 00:22:30,579 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:30,589 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:30,841 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:31,020 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:31,020 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:31,033 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:31,033 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:31,034 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:31,037 [INFO]: Experiment result plotted!
+2025-06-02 00:22:31,266 [INFO]: Loading metric patterns...
+2025-06-02 00:22:31,267 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:31,268 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:31,270 [INFO]: Experiment result plotted!
+2025-06-02 00:22:31,441 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:31,441 [INFO]: The number of subsequences to predict normality: 4149
+2025-06-02 00:22:31,554 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:31,554 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:31,557 [INFO]: Experiment result plotted!
+2025-06-02 00:22:31,710 [INFO]: ^^^^^^^^^^ Dataset: industry (97baaad6), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:31,710 [INFO]: Parameter settings:
+2025-06-02 00:22:31,710 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:31,718 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:31,906 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:32,058 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:32,058 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:32,070 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:32,070 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:32,071 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:32,073 [INFO]: Experiment result plotted!
+2025-06-02 00:22:32,238 [INFO]: Loading metric patterns...
+2025-06-02 00:22:32,239 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:32,239 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:32,241 [INFO]: Experiment result plotted!
+2025-06-02 00:22:32,394 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:32,394 [INFO]: The number of subsequences to predict normality: 4147
+2025-06-02 00:22:32,501 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:32,502 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:32,504 [INFO]: Experiment result plotted!
+2025-06-02 00:22:32,641 [INFO]: ^^^^^^^^^^ Dataset: industry (491c6b45), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:32,641 [INFO]: Parameter settings:
+2025-06-02 00:22:32,641 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:32,648 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:32,816 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:33,006 [INFO]: The number of anomalous seqs after ap clustering: 18
+2025-06-02 00:22:33,006 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:22:33,018 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:33,024 [INFO]: precision: 0.515, recall: 1.000, f1: 0.680
+2025-06-02 00:22:33,036 [INFO]: Experiment result plotted!
+2025-06-02 00:22:33,200 [INFO]: Loading metric patterns...
+2025-06-02 00:22:33,206 [INFO]: precision: 0.515, recall: 1.000, f1: 0.680
+2025-06-02 00:22:33,217 [INFO]: Experiment result plotted!
+2025-06-02 00:22:33,376 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:33,377 [INFO]: The number of subsequences to predict normality: 4167
+2025-06-02 00:22:33,520 [INFO]: precision: 1.000, recall: 0.481, f1: 0.650
+2025-06-02 00:22:33,528 [INFO]: Experiment result plotted!
+2025-06-02 00:22:33,680 [INFO]: ^^^^^^^^^^ Dataset: industry (6dc0643a), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:33,680 [INFO]: Parameter settings:
+2025-06-02 00:22:33,680 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:33,688 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:33,877 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:34,034 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:34,034 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:34,046 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:34,046 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:34,046 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:34,048 [INFO]: Experiment result plotted!
+2025-06-02 00:22:34,206 [INFO]: Loading metric patterns...
+2025-06-02 00:22:34,207 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:34,208 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:34,210 [INFO]: Experiment result plotted!
+2025-06-02 00:22:34,359 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:34,359 [INFO]: The number of subsequences to predict normality: 4167
+2025-06-02 00:22:34,471 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:34,472 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:34,475 [INFO]: Experiment result plotted!
+2025-06-02 00:22:34,623 [INFO]: ^^^^^^^^^^ Dataset: industry (d3cac1d7), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:34,624 [INFO]: Parameter settings:
+2025-06-02 00:22:34,624 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:34,631 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:34,839 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:34,991 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:34,992 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:35,002 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:35,002 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:35,003 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:35,004 [INFO]: Experiment result plotted!
+2025-06-02 00:22:35,155 [INFO]: Loading metric patterns...
+2025-06-02 00:22:35,156 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:35,157 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:35,158 [INFO]: Experiment result plotted!
+2025-06-02 00:22:35,299 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:35,299 [INFO]: The number of subsequences to predict normality: 4151
+2025-06-02 00:22:35,404 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:35,404 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:35,407 [INFO]: Experiment result plotted!
+2025-06-02 00:22:35,548 [INFO]: ^^^^^^^^^^ Dataset: industry (8f92f1dc), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:35,548 [INFO]: Parameter settings:
+2025-06-02 00:22:35,548 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:35,555 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:35,723 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:35,853 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:35,853 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:35,864 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:35,864 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:35,864 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:35,866 [INFO]: Experiment result plotted!
+2025-06-02 00:22:36,038 [INFO]: Loading metric patterns...
+2025-06-02 00:22:36,039 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:36,040 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:36,041 [INFO]: Experiment result plotted!
+2025-06-02 00:22:36,198 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:36,198 [INFO]: The number of subsequences to predict normality: 4171
+2025-06-02 00:22:36,297 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:36,298 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:36,300 [INFO]: Experiment result plotted!
+2025-06-02 00:22:36,444 [INFO]: ^^^^^^^^^^ Dataset: industry (14bbb844), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:36,445 [INFO]: Parameter settings:
+2025-06-02 00:22:36,445 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:36,452 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:36,623 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:36,764 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:36,764 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:36,774 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:36,774 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:36,775 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:36,776 [INFO]: Experiment result plotted!
+2025-06-02 00:22:36,921 [INFO]: Loading metric patterns...
+2025-06-02 00:22:36,922 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:36,922 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:36,923 [INFO]: Experiment result plotted!
+2025-06-02 00:22:37,060 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:37,060 [INFO]: The number of subsequences to predict normality: 4159
+2025-06-02 00:22:37,154 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:37,154 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:37,157 [INFO]: Experiment result plotted!
+2025-06-02 00:22:37,283 [INFO]: ^^^^^^^^^^ Dataset: industry (d900aeff), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:37,283 [INFO]: Parameter settings:
+2025-06-02 00:22:37,283 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:37,289 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:37,445 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:37,571 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:37,571 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:37,582 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:37,582 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:37,583 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:37,585 [INFO]: Experiment result plotted!
+2025-06-02 00:22:37,750 [INFO]: Loading metric patterns...
+2025-06-02 00:22:37,751 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:37,752 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:37,753 [INFO]: Experiment result plotted!
+2025-06-02 00:22:37,899 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:37,900 [INFO]: The number of subsequences to predict normality: 4149
+2025-06-02 00:22:38,012 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:38,013 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:38,016 [INFO]: Experiment result plotted!
+2025-06-02 00:22:38,148 [INFO]: ^^^^^^^^^^ Dataset: industry (5a1123e3), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:38,148 [INFO]: Parameter settings:
+2025-06-02 00:22:38,148 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:38,154 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:38,468 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:38,611 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:38,611 [INFO]: The number of anomalous clusters: 9
+2025-06-02 00:22:38,623 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:38,630 [INFO]: precision: 0.745, recall: 1.000, f1: 0.854
+2025-06-02 00:22:38,642 [INFO]: Experiment result plotted!
+2025-06-02 00:22:38,788 [INFO]: Loading metric patterns...
+2025-06-02 00:22:38,793 [INFO]: precision: 0.745, recall: 1.000, f1: 0.854
+2025-06-02 00:22:38,804 [INFO]: Experiment result plotted!
+2025-06-02 00:22:38,938 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:38,938 [INFO]: The number of subsequences to predict normality: 4176
+2025-06-02 00:22:39,056 [INFO]: precision: 0.917, recall: 0.775, f1: 0.840
+2025-06-02 00:22:39,079 [INFO]: Experiment result plotted!
+2025-06-02 00:22:39,212 [INFO]: ^^^^^^^^^^ Dataset: industry (4d95441d), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:39,213 [INFO]: Parameter settings:
+2025-06-02 00:22:39,213 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:39,219 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:39,377 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:39,518 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:39,518 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:39,528 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:39,528 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:39,529 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:39,531 [INFO]: Experiment result plotted!
+2025-06-02 00:22:39,683 [INFO]: Loading metric patterns...
+2025-06-02 00:22:39,684 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:39,685 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:39,686 [INFO]: Experiment result plotted!
+2025-06-02 00:22:39,825 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:39,825 [INFO]: The number of subsequences to predict normality: 4154
+2025-06-02 00:22:39,918 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:39,919 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:39,921 [INFO]: Experiment result plotted!
+2025-06-02 00:22:40,048 [INFO]: ^^^^^^^^^^ Dataset: industry (cab74f39), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:40,048 [INFO]: Parameter settings:
+2025-06-02 00:22:40,048 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:40,054 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:40,207 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:40,333 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:40,333 [INFO]: The number of anomalous clusters: 5
+2025-06-02 00:22:40,343 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:40,349 [INFO]: precision: 1.000, recall: 0.881, f1: 0.937
+2025-06-02 00:22:40,361 [INFO]: Experiment result plotted!
+2025-06-02 00:22:40,515 [INFO]: Loading metric patterns...
+2025-06-02 00:22:40,520 [INFO]: precision: 1.000, recall: 0.881, f1: 0.937
+2025-06-02 00:22:40,531 [INFO]: Experiment result plotted!
+2025-06-02 00:22:40,676 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:40,676 [INFO]: The number of subsequences to predict normality: 4153
+2025-06-02 00:22:40,781 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:40,781 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:40,784 [INFO]: Experiment result plotted!
+2025-06-02 00:22:40,917 [INFO]: ^^^^^^^^^^ Dataset: industry (d891c615), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:40,917 [INFO]: Parameter settings:
+2025-06-02 00:22:40,917 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:40,924 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:41,080 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:41,243 [INFO]: The number of anomalous seqs after ap clustering: 21
+2025-06-02 00:22:41,243 [INFO]: The number of anomalous clusters: 7
+2025-06-02 00:22:41,255 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:41,260 [INFO]: precision: 1.000, recall: 0.976, f1: 0.988
+2025-06-02 00:22:41,274 [INFO]: Experiment result plotted!
+2025-06-02 00:22:41,419 [INFO]: Loading metric patterns...
+2025-06-02 00:22:41,424 [INFO]: precision: 1.000, recall: 0.976, f1: 0.988
+2025-06-02 00:22:41,436 [INFO]: Experiment result plotted!
+2025-06-02 00:22:41,573 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:41,573 [INFO]: The number of subsequences to predict normality: 4148
+2025-06-02 00:22:41,678 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:41,679 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:41,681 [INFO]: Experiment result plotted!
+2025-06-02 00:22:41,816 [INFO]: ^^^^^^^^^^ Dataset: industry (0980338e), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:41,816 [INFO]: Parameter settings:
+2025-06-02 00:22:41,816 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:41,822 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:41,987 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:42,157 [INFO]: The number of anomalous seqs after ap clustering: 20
+2025-06-02 00:22:42,158 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:22:42,168 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:42,173 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:42,184 [INFO]: Experiment result plotted!
+2025-06-02 00:22:42,325 [INFO]: Loading metric patterns...
+2025-06-02 00:22:42,330 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:42,342 [INFO]: Experiment result plotted!
+2025-06-02 00:22:42,476 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:42,476 [INFO]: The number of subsequences to predict normality: 4154
+2025-06-02 00:22:42,589 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:42,590 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:42,592 [INFO]: Experiment result plotted!
+2025-06-02 00:22:42,723 [INFO]: ^^^^^^^^^^ Dataset: industry (d03149fd), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:42,723 [INFO]: Parameter settings:
+2025-06-02 00:22:42,723 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:42,729 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:42,885 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:43,014 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:43,014 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:43,024 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:43,024 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:43,025 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:43,027 [INFO]: Experiment result plotted!
+2025-06-02 00:22:43,160 [INFO]: Loading metric patterns...
+2025-06-02 00:22:43,161 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:43,162 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:43,163 [INFO]: Experiment result plotted!
+2025-06-02 00:22:43,291 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:43,291 [INFO]: The number of subsequences to predict normality: 4167
+2025-06-02 00:22:43,386 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:43,386 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:43,389 [INFO]: Experiment result plotted!
+2025-06-02 00:22:43,520 [INFO]: ^^^^^^^^^^ Dataset: industry (5b84ddcf), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:43,521 [INFO]: Parameter settings:
+2025-06-02 00:22:43,521 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:43,527 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:43,684 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:43,864 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:43,864 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:43,875 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:43,875 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:43,876 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:43,878 [INFO]: Experiment result plotted!
+2025-06-02 00:22:44,016 [INFO]: Loading metric patterns...
+2025-06-02 00:22:44,017 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:44,018 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:44,019 [INFO]: Experiment result plotted!
+2025-06-02 00:22:44,150 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:44,150 [INFO]: The number of subsequences to predict normality: 4165
+2025-06-02 00:22:44,245 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:44,246 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:44,248 [INFO]: Experiment result plotted!
+2025-06-02 00:22:44,375 [INFO]: ^^^^^^^^^^ Dataset: industry (6bf60d3a), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:44,375 [INFO]: Parameter settings:
+2025-06-02 00:22:44,375 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:44,382 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:44,545 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:44,692 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:44,692 [INFO]: The number of anomalous clusters: 4
+2025-06-02 00:22:44,703 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:44,707 [INFO]: precision: 1.000, recall: 0.867, f1: 0.929
+2025-06-02 00:22:44,720 [INFO]: Experiment result plotted!
+2025-06-02 00:22:44,858 [INFO]: Loading metric patterns...
+2025-06-02 00:22:44,862 [INFO]: precision: 1.000, recall: 0.867, f1: 0.929
+2025-06-02 00:22:44,874 [INFO]: Experiment result plotted!
+2025-06-02 00:22:45,009 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:45,010 [INFO]: The number of subsequences to predict normality: 4156
+2025-06-02 00:22:45,112 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:45,112 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:45,115 [INFO]: Experiment result plotted!
+2025-06-02 00:22:45,242 [INFO]: ^^^^^^^^^^ Dataset: industry (3f79e100), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:45,242 [INFO]: Parameter settings:
+2025-06-02 00:22:45,242 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:45,249 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:45,402 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:45,547 [INFO]: The number of anomalous seqs after ap clustering: 14
+2025-06-02 00:22:45,547 [INFO]: The number of anomalous clusters: 2
+2025-06-02 00:22:45,558 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:45,563 [INFO]: precision: 0.650, recall: 1.000, f1: 0.788
+2025-06-02 00:22:45,571 [INFO]: Experiment result plotted!
+2025-06-02 00:22:45,710 [INFO]: Loading metric patterns...
+2025-06-02 00:22:45,715 [INFO]: precision: 0.650, recall: 1.000, f1: 0.788
+2025-06-02 00:22:45,857 [INFO]: Experiment result plotted!
+2025-06-02 00:22:45,991 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:45,991 [INFO]: The number of subsequences to predict normality: 4156
+2025-06-02 00:22:46,093 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:46,094 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:46,096 [INFO]: Experiment result plotted!
+2025-06-02 00:22:46,225 [INFO]: ^^^^^^^^^^ Dataset: industry (0316ae8f), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:46,225 [INFO]: Parameter settings:
+2025-06-02 00:22:46,225 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:46,232 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:46,390 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:46,577 [INFO]: The number of anomalous seqs after ap clustering: 5
+2025-06-02 00:22:46,577 [INFO]: The number of anomalous clusters: 5
+2025-06-02 00:22:46,587 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:46,592 [INFO]: precision: 1.000, recall: 0.704, f1: 0.826
+2025-06-02 00:22:46,596 [INFO]: Experiment result plotted!
+2025-06-02 00:22:46,742 [INFO]: Loading metric patterns...
+2025-06-02 00:22:46,747 [INFO]: precision: 1.000, recall: 0.704, f1: 0.826
+2025-06-02 00:22:46,752 [INFO]: Experiment result plotted!
+2025-06-02 00:22:46,891 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:46,891 [INFO]: The number of subsequences to predict normality: 4173
+2025-06-02 00:22:47,004 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:47,005 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:47,007 [INFO]: Experiment result plotted!
+2025-06-02 00:22:47,157 [INFO]: ^^^^^^^^^^ Dataset: industry (9ca707f3), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:47,157 [INFO]: Parameter settings:
+2025-06-02 00:22:47,157 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:47,163 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:47,297 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:47,451 [INFO]: The number of anomalous seqs after ap clustering: 5
+2025-06-02 00:22:47,451 [INFO]: The number of anomalous clusters: 5
+2025-06-02 00:22:47,461 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:47,467 [INFO]: precision: 1.000, recall: 0.950, f1: 0.974
+2025-06-02 00:22:47,470 [INFO]: Experiment result plotted!
+2025-06-02 00:22:47,611 [INFO]: Loading metric patterns...
+2025-06-02 00:22:47,615 [INFO]: precision: 1.000, recall: 0.950, f1: 0.974
+2025-06-02 00:22:47,619 [INFO]: Experiment result plotted!
+2025-06-02 00:22:47,751 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:47,752 [INFO]: The number of subsequences to predict normality: 4151
+2025-06-02 00:22:47,855 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:47,855 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:47,858 [INFO]: Experiment result plotted!
+2025-06-02 00:22:48,004 [INFO]: ^^^^^^^^^^ Dataset: industry (cb70f0c6), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:48,004 [INFO]: Parameter settings:
+2025-06-02 00:22:48,004 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:48,009 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:48,185 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:48,324 [INFO]: The number of anomalous seqs after ap clustering: 5
+2025-06-02 00:22:48,324 [INFO]: The number of anomalous clusters: 5
+2025-06-02 00:22:48,334 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:48,339 [INFO]: precision: 1.000, recall: 0.760, f1: 0.864
+2025-06-02 00:22:48,343 [INFO]: Experiment result plotted!
+2025-06-02 00:22:48,489 [INFO]: Loading metric patterns...
+2025-06-02 00:22:48,495 [INFO]: precision: 1.000, recall: 0.760, f1: 0.864
+2025-06-02 00:22:48,499 [INFO]: Experiment result plotted!
+2025-06-02 00:22:48,640 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:48,640 [INFO]: The number of subsequences to predict normality: 4164
+2025-06-02 00:22:48,756 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:48,756 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:48,759 [INFO]: Experiment result plotted!
+2025-06-02 00:22:48,889 [INFO]: ^^^^^^^^^^ Dataset: industry (97c6aed4), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:48,889 [INFO]: Parameter settings:
+2025-06-02 00:22:48,889 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:48,895 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:49,039 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:49,177 [INFO]: The number of anomalous seqs after ap clustering: 5
+2025-06-02 00:22:49,177 [INFO]: The number of anomalous clusters: 2
+2025-06-02 00:22:49,187 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:49,192 [INFO]: precision: 1.000, recall: 0.704, f1: 0.826
+2025-06-02 00:22:49,196 [INFO]: Experiment result plotted!
+2025-06-02 00:22:49,345 [INFO]: Loading metric patterns...
+2025-06-02 00:22:49,349 [INFO]: precision: 1.000, recall: 0.704, f1: 0.826
+2025-06-02 00:22:49,353 [INFO]: Experiment result plotted!
+2025-06-02 00:22:49,498 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:49,499 [INFO]: The number of subsequences to predict normality: 4159
+2025-06-02 00:22:49,611 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:49,612 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:49,614 [INFO]: Experiment result plotted!
+2025-06-02 00:22:49,764 [INFO]: ^^^^^^^^^^ Dataset: industry (5bdb9ded), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:49,764 [INFO]: Parameter settings:
+2025-06-02 00:22:49,764 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:49,771 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:49,942 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:50,106 [INFO]: The number of anomalous seqs after ap clustering: 4
+2025-06-02 00:22:50,106 [INFO]: The number of anomalous clusters: 2
+2025-06-02 00:22:50,118 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:50,123 [INFO]: precision: 1.000, recall: 0.720, f1: 0.837
+2025-06-02 00:22:50,127 [INFO]: Experiment result plotted!
+2025-06-02 00:22:50,284 [INFO]: Loading metric patterns...
+2025-06-02 00:22:50,289 [INFO]: precision: 1.000, recall: 0.720, f1: 0.837
+2025-06-02 00:22:50,293 [INFO]: Experiment result plotted!
+2025-06-02 00:22:50,444 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:50,444 [INFO]: The number of subsequences to predict normality: 4158
+2025-06-02 00:22:50,566 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:50,567 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:50,569 [INFO]: Experiment result plotted!
+2025-06-02 00:22:50,703 [INFO]: ^^^^^^^^^^ Dataset: industry (b7c2455d), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:50,704 [INFO]: Parameter settings:
+2025-06-02 00:22:50,704 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:50,709 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:50,850 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:50,941 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:50,942 [INFO]: The number of anomalous clusters: 22
+2025-06-02 00:22:50,963 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:50,967 [INFO]: precision: 1.000, recall: 0.806, f1: 0.893
+2025-06-02 00:22:50,979 [INFO]: Experiment result plotted!
+2025-06-02 00:22:51,106 [INFO]: Loading metric patterns...
+2025-06-02 00:22:51,111 [INFO]: precision: 1.000, recall: 0.806, f1: 0.893
+2025-06-02 00:22:51,122 [INFO]: Experiment result plotted!
+2025-06-02 00:22:51,242 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:51,242 [INFO]: The number of subsequences to predict normality: 4149
+2025-06-02 00:22:51,384 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:51,385 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:51,387 [INFO]: Experiment result plotted!
+2025-06-02 00:22:51,524 [INFO]: ^^^^^^^^^^ Dataset: industry (ce31dd3b), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:22:51,524 [INFO]: Parameter settings:
+2025-06-02 00:22:51,524 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:51,530 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:51,685 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:22:51,803 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:22:51,803 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:22:51,813 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:51,818 [INFO]: precision: 0.568, recall: 0.875, f1: 0.689
+2025-06-02 00:22:51,824 [INFO]: Experiment result plotted!
+2025-06-02 00:22:51,986 [INFO]: Loading metric patterns...
+2025-06-02 00:22:51,991 [INFO]: precision: 0.568, recall: 0.875, f1: 0.689
+2025-06-02 00:22:51,998 [INFO]: Experiment result plotted!
+2025-06-02 00:22:52,181 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:52,181 [INFO]: The number of subsequences to predict normality: 4157
+2025-06-02 00:22:52,313 [INFO]: precision: 0.080, recall: 0.531, f1: 0.139
+2025-06-02 00:22:52,358 [INFO]: Experiment result plotted!
+2025-06-02 00:22:52,528 [INFO]: ^^^^^^^^^^ Dataset: industry (e562b727), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:22:52,528 [INFO]: Parameter settings:
+2025-06-02 00:22:52,528 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:52,534 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:52,721 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:22:52,849 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:22:52,849 [INFO]: The number of anomalous clusters: 9
+2025-06-02 00:22:52,861 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:52,866 [INFO]: precision: 0.071, recall: 1.000, f1: 0.133
+2025-06-02 00:22:52,872 [INFO]: Experiment result plotted!
+2025-06-02 00:22:53,023 [INFO]: Loading metric patterns...
+2025-06-02 00:22:53,028 [INFO]: precision: 0.071, recall: 1.000, f1: 0.133
+2025-06-02 00:22:53,034 [INFO]: Experiment result plotted!
+2025-06-02 00:22:53,177 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:53,177 [INFO]: The number of subsequences to predict normality: 4167
+2025-06-02 00:22:53,304 [INFO]: precision: 0.848, recall: 0.400, f1: 0.544
+2025-06-02 00:22:53,314 [INFO]: Experiment result plotted!
+2025-06-02 00:22:53,441 [INFO]: ^^^^^^^^^^ Dataset: industry (e96475dc), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:53,441 [INFO]: Parameter settings:
+2025-06-02 00:22:53,442 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:53,448 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:53,606 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:53,743 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:53,743 [INFO]: The number of anomalous clusters: 4
+2025-06-02 00:22:53,753 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:53,758 [INFO]: precision: 1.000, recall: 0.234, f1: 0.380
+2025-06-02 00:22:53,771 [INFO]: Experiment result plotted!
+2025-06-02 00:22:53,918 [INFO]: Loading metric patterns...
+2025-06-02 00:22:53,923 [INFO]: precision: 1.000, recall: 0.234, f1: 0.380
+2025-06-02 00:22:53,934 [INFO]: Experiment result plotted!
+2025-06-02 00:22:54,074 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:54,074 [INFO]: The number of subsequences to predict normality: 4169
+2025-06-02 00:22:54,178 [INFO]: precision: 1.000, recall: 0.857, f1: 0.923
+2025-06-02 00:22:54,196 [INFO]: Experiment result plotted!
+2025-06-02 00:22:54,323 [INFO]: ^^^^^^^^^^ Dataset: industry (d8a8498c), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:22:54,323 [INFO]: Parameter settings:
+2025-06-02 00:22:54,323 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:54,329 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:54,623 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:22:54,762 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:22:54,762 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:22:54,772 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:54,772 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:54,773 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:54,775 [INFO]: Experiment result plotted!
+2025-06-02 00:22:54,937 [INFO]: Loading metric patterns...
+2025-06-02 00:22:54,938 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:54,939 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:54,940 [INFO]: Experiment result plotted!
+2025-06-02 00:22:55,078 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:55,078 [INFO]: The number of subsequences to predict normality: 4155
+2025-06-02 00:22:55,179 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:55,180 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:55,183 [INFO]: Experiment result plotted!
+2025-06-02 00:22:55,308 [INFO]: ^^^^^^^^^^ Dataset: industry (2cde4398), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:55,309 [INFO]: Parameter settings:
+2025-06-02 00:22:55,309 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:55,315 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:55,473 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:55,619 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:55,619 [INFO]: The number of anomalous clusters: 8
+2025-06-02 00:22:55,630 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:55,635 [INFO]: precision: 0.429, recall: 1.000, f1: 0.600
+2025-06-02 00:22:55,646 [INFO]: Experiment result plotted!
+2025-06-02 00:22:55,794 [INFO]: Loading metric patterns...
+2025-06-02 00:22:55,799 [INFO]: precision: 0.429, recall: 1.000, f1: 0.600
+2025-06-02 00:22:55,810 [INFO]: Experiment result plotted!
+2025-06-02 00:22:55,948 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:55,948 [INFO]: The number of subsequences to predict normality: 4171
+2025-06-02 00:22:56,061 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:56,076 [INFO]: Experiment result plotted!
+2025-06-02 00:22:56,206 [INFO]: ^^^^^^^^^^ Dataset: industry (0c5880ba), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:56,207 [INFO]: Parameter settings:
+2025-06-02 00:22:56,207 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:56,212 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:56,373 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:56,492 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:56,492 [INFO]: The number of anomalous clusters: 8
+2025-06-02 00:22:56,503 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:56,508 [INFO]: precision: 0.439, recall: 1.000, f1: 0.610
+2025-06-02 00:22:56,520 [INFO]: Experiment result plotted!
+2025-06-02 00:22:56,672 [INFO]: Loading metric patterns...
+2025-06-02 00:22:56,677 [INFO]: precision: 0.439, recall: 1.000, f1: 0.610
+2025-06-02 00:22:56,689 [INFO]: Experiment result plotted!
+2025-06-02 00:22:56,826 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:56,826 [INFO]: The number of subsequences to predict normality: 4135
+2025-06-02 00:22:56,941 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:22:56,952 [INFO]: Experiment result plotted!
+2025-06-02 00:22:57,083 [INFO]: ^^^^^^^^^^ Dataset: industry (4b2364c2), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:57,083 [INFO]: Parameter settings:
+2025-06-02 00:22:57,083 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:57,088 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:57,241 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:57,358 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:22:57,359 [INFO]: The number of anomalous clusters: 7
+2025-06-02 00:22:57,368 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:57,372 [INFO]: precision: 1.000, recall: 0.343, f1: 0.511
+2025-06-02 00:22:57,384 [INFO]: Experiment result plotted!
+2025-06-02 00:22:57,524 [INFO]: Loading metric patterns...
+2025-06-02 00:22:57,529 [INFO]: precision: 1.000, recall: 0.343, f1: 0.511
+2025-06-02 00:22:57,541 [INFO]: Experiment result plotted!
+2025-06-02 00:22:57,673 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:57,673 [INFO]: The number of subsequences to predict normality: 4169
+2025-06-02 00:22:57,782 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:57,783 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:57,785 [INFO]: Experiment result plotted!
+2025-06-02 00:22:57,921 [INFO]: ^^^^^^^^^^ Dataset: industry (b2d2bb97), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:22:57,921 [INFO]: Parameter settings:
+2025-06-02 00:22:57,921 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:57,927 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:58,086 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:22:58,223 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:22:58,223 [INFO]: The number of anomalous clusters: 9
+2025-06-02 00:22:58,233 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:58,238 [INFO]: precision: 1.000, recall: 0.338, f1: 0.505
+2025-06-02 00:22:58,244 [INFO]: Experiment result plotted!
+2025-06-02 00:22:58,395 [INFO]: Loading metric patterns...
+2025-06-02 00:22:58,400 [INFO]: precision: 1.000, recall: 0.338, f1: 0.505
+2025-06-02 00:22:58,405 [INFO]: Experiment result plotted!
+2025-06-02 00:22:58,545 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:58,545 [INFO]: The number of subsequences to predict normality: 4168
+2025-06-02 00:22:58,655 [INFO]: No anomalous patterns detected!
+2025-06-02 00:22:58,656 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:22:58,658 [INFO]: Experiment result plotted!
+2025-06-02 00:22:58,799 [INFO]: ^^^^^^^^^^ Dataset: industry (0880fc68), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:22:58,799 [INFO]: Parameter settings:
+2025-06-02 00:22:58,799 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:58,805 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:58,955 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:22:59,128 [INFO]: The number of anomalous seqs after ap clustering: 19
+2025-06-02 00:22:59,128 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:22:59,138 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:59,142 [INFO]: precision: 0.182, recall: 1.000, f1: 0.308
+2025-06-02 00:22:59,152 [INFO]: Experiment result plotted!
+2025-06-02 00:22:59,288 [INFO]: Loading metric patterns...
+2025-06-02 00:22:59,293 [INFO]: precision: 0.182, recall: 1.000, f1: 0.308
+2025-06-02 00:22:59,303 [INFO]: Experiment result plotted!
+2025-06-02 00:22:59,432 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:22:59,433 [INFO]: The number of subsequences to predict normality: 4156
+2025-06-02 00:22:59,541 [INFO]: precision: 0.614, recall: 0.098, f1: 0.169
+2025-06-02 00:22:59,550 [INFO]: Experiment result plotted!
+2025-06-02 00:22:59,681 [INFO]: ^^^^^^^^^^ Dataset: industry (38f40a07), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:22:59,681 [INFO]: Parameter settings:
+2025-06-02 00:22:59,681 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:22:59,687 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:22:59,846 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:22:59,962 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:22:59,962 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:22:59,972 [INFO]: Metric patterns dumped.
+2025-06-02 00:22:59,977 [INFO]: precision: 0.348, recall: 1.000, f1: 0.516
+2025-06-02 00:22:59,984 [INFO]: Experiment result plotted!
+2025-06-02 00:23:00,149 [INFO]: Loading metric patterns...
+2025-06-02 00:23:00,155 [INFO]: precision: 0.348, recall: 1.000, f1: 0.516
+2025-06-02 00:23:00,161 [INFO]: Experiment result plotted!
+2025-06-02 00:23:00,305 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:00,305 [INFO]: The number of subsequences to predict normality: 4146
+2025-06-02 00:23:00,420 [INFO]: precision: 0.917, recall: 0.077, f1: 0.143
+2025-06-02 00:23:00,426 [INFO]: Experiment result plotted!
+2025-06-02 00:23:00,567 [INFO]: ^^^^^^^^^^ Dataset: industry (7091e417), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:23:00,567 [INFO]: Parameter settings:
+2025-06-02 00:23:00,567 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:00,573 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:00,749 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:23:00,879 [INFO]: The number of anomalous seqs after ap clustering: 3
+2025-06-02 00:23:00,879 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:23:00,889 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:00,894 [INFO]: precision: 0.294, recall: 1.000, f1: 0.455
+2025-06-02 00:23:00,898 [INFO]: Experiment result plotted!
+2025-06-02 00:23:01,040 [INFO]: Loading metric patterns...
+2025-06-02 00:23:01,044 [INFO]: precision: 0.294, recall: 1.000, f1: 0.455
+2025-06-02 00:23:01,047 [INFO]: Experiment result plotted!
+2025-06-02 00:23:01,180 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:01,180 [INFO]: The number of subsequences to predict normality: 4164
+2025-06-02 00:23:01,292 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:01,293 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:23:01,295 [INFO]: Experiment result plotted!
+2025-06-02 00:23:01,429 [INFO]: ^^^^^^^^^^ Dataset: industry (43f7d538), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:23:01,429 [INFO]: Parameter settings:
+2025-06-02 00:23:01,429 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:01,435 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:01,584 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:23:01,711 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:23:01,711 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:23:01,721 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:01,725 [INFO]: precision: 0.432, recall: 0.696, f1: 0.533
+2025-06-02 00:23:01,731 [INFO]: Experiment result plotted!
+2025-06-02 00:23:01,887 [INFO]: Loading metric patterns...
+2025-06-02 00:23:01,892 [INFO]: precision: 0.432, recall: 0.696, f1: 0.533
+2025-06-02 00:23:01,898 [INFO]: Experiment result plotted!
+2025-06-02 00:23:02,046 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:02,046 [INFO]: The number of subsequences to predict normality: 4167
+2025-06-02 00:23:02,148 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:02,149 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:02,151 [INFO]: Experiment result plotted!
+2025-06-02 00:23:02,293 [INFO]: ^^^^^^^^^^ Dataset: industry (3ca37c85), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:23:02,293 [INFO]: Parameter settings:
+2025-06-02 00:23:02,294 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:02,299 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:02,460 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:23:02,577 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:23:02,578 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:23:02,588 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:02,592 [INFO]: precision: 0.304, recall: 1.000, f1: 0.467
+2025-06-02 00:23:02,598 [INFO]: Experiment result plotted!
+2025-06-02 00:23:02,873 [INFO]: Loading metric patterns...
+2025-06-02 00:23:02,877 [INFO]: precision: 0.304, recall: 1.000, f1: 0.467
+2025-06-02 00:23:02,883 [INFO]: Experiment result plotted!
+2025-06-02 00:23:03,013 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:03,014 [INFO]: The number of subsequences to predict normality: 4171
+2025-06-02 00:23:03,126 [INFO]: precision: 1.000, recall: 0.082, f1: 0.151
+2025-06-02 00:23:03,132 [INFO]: Experiment result plotted!
+2025-06-02 00:23:03,264 [INFO]: ^^^^^^^^^^ Dataset: industry (31be1569), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:23:03,264 [INFO]: Parameter settings:
+2025-06-02 00:23:03,264 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:03,270 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:03,420 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:23:03,545 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:23:03,545 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:23:03,555 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:03,561 [INFO]: precision: 0.333, recall: 1.000, f1: 0.500
+2025-06-02 00:23:03,568 [INFO]: Experiment result plotted!
+2025-06-02 00:23:03,711 [INFO]: Loading metric patterns...
+2025-06-02 00:23:03,716 [INFO]: precision: 0.333, recall: 1.000, f1: 0.500
+2025-06-02 00:23:03,721 [INFO]: Experiment result plotted!
+2025-06-02 00:23:03,868 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:03,868 [INFO]: The number of subsequences to predict normality: 4166
+2025-06-02 00:23:03,977 [INFO]: precision: 1.000, recall: 0.082, f1: 0.151
+2025-06-02 00:23:03,983 [INFO]: Experiment result plotted!
+2025-06-02 00:23:04,119 [INFO]: ^^^^^^^^^^ Dataset: industry (c3715c54), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:23:04,119 [INFO]: Parameter settings:
+2025-06-02 00:23:04,119 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:04,125 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:04,302 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:23:04,429 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:23:04,429 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:23:04,441 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:04,447 [INFO]: precision: 0.217, recall: 1.000, f1: 0.357
+2025-06-02 00:23:04,453 [INFO]: Experiment result plotted!
+2025-06-02 00:23:04,591 [INFO]: Loading metric patterns...
+2025-06-02 00:23:04,595 [INFO]: precision: 0.217, recall: 1.000, f1: 0.357
+2025-06-02 00:23:04,601 [INFO]: Experiment result plotted!
+2025-06-02 00:23:04,731 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:04,731 [INFO]: The number of subsequences to predict normality: 4149
+2025-06-02 00:23:04,849 [INFO]: precision: 1.000, recall: 0.081, f1: 0.150
+2025-06-02 00:23:04,855 [INFO]: Experiment result plotted!
+2025-06-02 00:23:04,979 [INFO]: ^^^^^^^^^^ Dataset: industry (98b52538), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:23:04,980 [INFO]: Parameter settings:
+2025-06-02 00:23:04,980 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:04,985 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:05,130 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:23:05,275 [INFO]: The number of anomalous seqs after ap clustering: 8
+2025-06-02 00:23:05,275 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:23:05,289 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:05,295 [INFO]: precision: 0.333, recall: 1.000, f1: 0.500
+2025-06-02 00:23:05,300 [INFO]: Experiment result plotted!
+2025-06-02 00:23:05,471 [INFO]: Loading metric patterns...
+2025-06-02 00:23:05,477 [INFO]: precision: 0.333, recall: 1.000, f1: 0.500
+2025-06-02 00:23:05,484 [INFO]: Experiment result plotted!
+2025-06-02 00:23:05,634 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:05,635 [INFO]: The number of subsequences to predict normality: 4170
+2025-06-02 00:23:05,742 [INFO]: precision: 1.000, recall: 0.078, f1: 0.145
+2025-06-02 00:23:05,748 [INFO]: Experiment result plotted!
+2025-06-02 00:23:05,888 [INFO]: ^^^^^^^^^^ Dataset: industry (ec2735a9), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:23:05,888 [INFO]: Parameter settings:
+2025-06-02 00:23:05,888 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:05,894 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:06,064 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:23:06,200 [INFO]: The number of anomalous seqs after ap clustering: 9
+2025-06-02 00:23:06,200 [INFO]: The number of anomalous clusters: 3
+2025-06-02 00:23:06,212 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:06,217 [INFO]: precision: 0.304, recall: 1.000, f1: 0.467
+2025-06-02 00:23:06,223 [INFO]: Experiment result plotted!
+2025-06-02 00:23:06,371 [INFO]: Loading metric patterns...
+2025-06-02 00:23:06,377 [INFO]: precision: 0.304, recall: 1.000, f1: 0.467
+2025-06-02 00:23:06,385 [INFO]: Experiment result plotted!
+2025-06-02 00:23:06,526 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:06,526 [INFO]: The number of subsequences to predict normality: 4168
+2025-06-02 00:23:06,637 [INFO]: precision: 1.000, recall: 0.078, f1: 0.145
+2025-06-02 00:23:06,643 [INFO]: Experiment result plotted!
+2025-06-02 00:23:06,782 [INFO]: ^^^^^^^^^^ Dataset: industry (b4847485), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:06,782 [INFO]: Parameter settings:
+2025-06-02 00:23:06,782 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:06,788 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:06,936 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:07,072 [INFO]: The number of anomalous seqs after ap clustering: 21
+2025-06-02 00:23:07,072 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:23:07,082 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:07,087 [INFO]: precision: 1.000, recall: 0.318, f1: 0.483
+2025-06-02 00:23:07,098 [INFO]: Experiment result plotted!
+2025-06-02 00:23:07,245 [INFO]: Loading metric patterns...
+2025-06-02 00:23:07,250 [INFO]: precision: 1.000, recall: 0.318, f1: 0.483
+2025-06-02 00:23:07,261 [INFO]: Experiment result plotted!
+2025-06-02 00:23:07,403 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:07,403 [INFO]: The number of subsequences to predict normality: 4150
+2025-06-02 00:23:07,512 [INFO]: precision: 1.000, recall: 0.909, f1: 0.952
+2025-06-02 00:23:07,520 [INFO]: Experiment result plotted!
+2025-06-02 00:23:07,653 [INFO]: ^^^^^^^^^^ Dataset: industry (9bb06573), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:07,653 [INFO]: Parameter settings:
+2025-06-02 00:23:07,653 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:07,659 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:07,832 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:07,969 [INFO]: The number of anomalous seqs after ap clustering: 21
+2025-06-02 00:23:07,969 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:23:07,980 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:07,984 [INFO]: precision: 1.000, recall: 0.318, f1: 0.483
+2025-06-02 00:23:07,995 [INFO]: Experiment result plotted!
+2025-06-02 00:23:08,139 [INFO]: Loading metric patterns...
+2025-06-02 00:23:08,144 [INFO]: precision: 1.000, recall: 0.318, f1: 0.483
+2025-06-02 00:23:08,154 [INFO]: Experiment result plotted!
+2025-06-02 00:23:08,306 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:08,306 [INFO]: The number of subsequences to predict normality: 4170
+2025-06-02 00:23:08,420 [INFO]: precision: 1.000, recall: 0.938, f1: 0.968
+2025-06-02 00:23:08,428 [INFO]: Experiment result plotted!
+2025-06-02 00:23:08,567 [INFO]: ^^^^^^^^^^ Dataset: industry (e9be562d), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:08,567 [INFO]: Parameter settings:
+2025-06-02 00:23:08,567 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:08,573 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:08,726 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:08,862 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:23:08,862 [INFO]: The number of anomalous clusters: 1
+2025-06-02 00:23:08,873 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:08,878 [INFO]: precision: 1.000, recall: 0.359, f1: 0.528
+2025-06-02 00:23:08,890 [INFO]: Experiment result plotted!
+2025-06-02 00:23:09,033 [INFO]: Loading metric patterns...
+2025-06-02 00:23:09,038 [INFO]: precision: 1.000, recall: 0.359, f1: 0.528
+2025-06-02 00:23:09,049 [INFO]: Experiment result plotted!
+2025-06-02 00:23:09,182 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:09,182 [INFO]: The number of subsequences to predict normality: 4171
+2025-06-02 00:23:09,276 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:09,277 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:23:09,280 [INFO]: Experiment result plotted!
+2025-06-02 00:23:09,410 [INFO]: ^^^^^^^^^^ Dataset: industry (08d292d0), m: 15, p: 99.8 ^^^^^^^^^^
+2025-06-02 00:23:09,410 [INFO]: Parameter settings:
+2025-06-02 00:23:09,410 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:09,416 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:09,569 [INFO]: The number of anomalous seqs: 9
+2025-06-02 00:23:09,717 [INFO]: The number of anomalous seqs after ap clustering: 7
+2025-06-02 00:23:09,717 [INFO]: The number of anomalous clusters: 2
+2025-06-02 00:23:09,727 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:09,732 [INFO]: precision: 0.514, recall: 0.474, f1: 0.493
+2025-06-02 00:23:09,736 [INFO]: Experiment result plotted!
+2025-06-02 00:23:09,891 [INFO]: Loading metric patterns...
+2025-06-02 00:23:09,896 [INFO]: precision: 0.514, recall: 0.474, f1: 0.493
+2025-06-02 00:23:09,900 [INFO]: Experiment result plotted!
+2025-06-02 00:23:10,046 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:10,046 [INFO]: The number of subsequences to predict normality: 4148
+2025-06-02 00:23:10,167 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:10,168 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:10,170 [INFO]: Experiment result plotted!
+2025-06-02 00:23:10,307 [INFO]: ^^^^^^^^^^ Dataset: industry (396e0624), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:10,307 [INFO]: Parameter settings:
+2025-06-02 00:23:10,307 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:10,313 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:10,606 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:10,740 [INFO]: The number of anomalous seqs after ap clustering: 17
+2025-06-02 00:23:10,740 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:23:10,753 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:10,757 [INFO]: precision: 0.288, recall: 0.773, f1: 0.420
+2025-06-02 00:23:10,769 [INFO]: Experiment result plotted!
+2025-06-02 00:23:10,919 [INFO]: Loading metric patterns...
+2025-06-02 00:23:10,924 [INFO]: precision: 0.288, recall: 0.773, f1: 0.420
+2025-06-02 00:23:10,933 [INFO]: Experiment result plotted!
+2025-06-02 00:23:11,076 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:11,076 [INFO]: The number of subsequences to predict normality: 4164
+2025-06-02 00:23:11,226 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:11,226 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:11,229 [INFO]: Experiment result plotted!
+2025-06-02 00:23:11,367 [INFO]: ^^^^^^^^^^ Dataset: industry (17d133fd), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:11,367 [INFO]: Parameter settings:
+2025-06-02 00:23:11,368 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:11,374 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:11,545 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:11,671 [INFO]: The number of anomalous seqs after ap clustering: 10
+2025-06-02 00:23:11,671 [INFO]: The number of anomalous clusters: 2
+2025-06-02 00:23:11,683 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:11,688 [INFO]: precision: 0.458, recall: 0.093, f1: 0.155
+2025-06-02 00:23:11,695 [INFO]: Experiment result plotted!
+2025-06-02 00:23:11,832 [INFO]: Loading metric patterns...
+2025-06-02 00:23:11,839 [INFO]: precision: 0.458, recall: 0.093, f1: 0.155
+2025-06-02 00:23:11,846 [INFO]: Experiment result plotted!
+2025-06-02 00:23:11,978 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:11,978 [INFO]: The number of subsequences to predict normality: 4146
+2025-06-02 00:23:12,076 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:12,077 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:12,080 [INFO]: Experiment result plotted!
+2025-06-02 00:23:12,206 [INFO]: ^^^^^^^^^^ Dataset: industry (eaab7e41), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:12,206 [INFO]: Parameter settings:
+2025-06-02 00:23:12,206 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:12,212 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:12,386 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:12,510 [INFO]: The number of anomalous seqs after ap clustering: 10
+2025-06-02 00:23:12,510 [INFO]: The number of anomalous clusters: 2
+2025-06-02 00:23:12,520 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:12,527 [INFO]: precision: 0.958, recall: 0.219, f1: 0.357
+2025-06-02 00:23:12,534 [INFO]: Experiment result plotted!
+2025-06-02 00:23:12,672 [INFO]: Loading metric patterns...
+2025-06-02 00:23:12,677 [INFO]: precision: 0.958, recall: 0.219, f1: 0.357
+2025-06-02 00:23:12,683 [INFO]: Experiment result plotted!
+2025-06-02 00:23:12,814 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:12,814 [INFO]: The number of subsequences to predict normality: 4150
+2025-06-02 00:23:12,920 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:12,920 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:12,923 [INFO]: Experiment result plotted!
+2025-06-02 00:23:13,045 [INFO]: ^^^^^^^^^^ Dataset: industry (72305238), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:13,045 [INFO]: Parameter settings:
+2025-06-02 00:23:13,045 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:13,051 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:13,215 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:13,354 [INFO]: The number of anomalous seqs after ap clustering: 22
+2025-06-02 00:23:13,354 [INFO]: The number of anomalous clusters: 4
+2025-06-02 00:23:13,365 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:13,370 [INFO]: precision: 1.000, recall: 0.352, f1: 0.521
+2025-06-02 00:23:13,382 [INFO]: Experiment result plotted!
+2025-06-02 00:23:13,523 [INFO]: Loading metric patterns...
+2025-06-02 00:23:13,528 [INFO]: precision: 1.000, recall: 0.352, f1: 0.521
+2025-06-02 00:23:13,539 [INFO]: Experiment result plotted!
+2025-06-02 00:23:13,671 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:13,671 [INFO]: The number of subsequences to predict normality: 4150
+2025-06-02 00:23:13,773 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:13,774 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:13,776 [INFO]: Experiment result plotted!
+2025-06-02 00:23:13,903 [INFO]: ^^^^^^^^^^ Dataset: industry (05bcd1a3), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:13,903 [INFO]: Parameter settings:
+2025-06-02 00:23:13,903 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:13,909 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:14,090 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:14,239 [INFO]: The number of anomalous seqs after ap clustering: 10
+2025-06-02 00:23:14,239 [INFO]: The number of anomalous clusters: 2
+2025-06-02 00:23:14,249 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:14,254 [INFO]: precision: 1.000, recall: 0.364, f1: 0.533
+2025-06-02 00:23:14,260 [INFO]: Experiment result plotted!
+2025-06-02 00:23:14,398 [INFO]: Loading metric patterns...
+2025-06-02 00:23:14,403 [INFO]: precision: 1.000, recall: 0.364, f1: 0.533
+2025-06-02 00:23:14,410 [INFO]: Experiment result plotted!
+2025-06-02 00:23:14,542 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:14,542 [INFO]: The number of subsequences to predict normality: 4151
+2025-06-02 00:23:14,638 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:14,638 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:14,641 [INFO]: Experiment result plotted!
+2025-06-02 00:23:14,768 [INFO]: ^^^^^^^^^^ Dataset: industry (892abadb), m: 15, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:14,768 [INFO]: Parameter settings:
+2025-06-02 00:23:14,768 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:14,774 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:14,921 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:15,082 [INFO]: The number of anomalous seqs after ap clustering: 21
+2025-06-02 00:23:15,082 [INFO]: The number of anomalous clusters: 7
+2025-06-02 00:23:15,093 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:15,098 [INFO]: precision: 0.246, recall: 0.640, f1: 0.356
+2025-06-02 00:23:15,108 [INFO]: Experiment result plotted!
+2025-06-02 00:23:15,259 [INFO]: Loading metric patterns...
+2025-06-02 00:23:15,264 [INFO]: precision: 0.246, recall: 0.640, f1: 0.356
+2025-06-02 00:23:15,275 [INFO]: Experiment result plotted!
+2025-06-02 00:23:15,426 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:15,426 [INFO]: The number of subsequences to predict normality: 4148
+2025-06-02 00:23:15,562 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:15,563 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:15,565 [INFO]: Experiment result plotted!
+2025-06-02 00:23:15,689 [INFO]: ^^^^^^^^^^ Dataset: industry (5ba70738), m: 15, p: 99 ^^^^^^^^^^
+2025-06-02 00:23:15,689 [INFO]: Parameter settings:
+2025-06-02 00:23:15,689 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:15,695 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:15,835 [INFO]: The number of anomalous seqs: 44
+2025-06-02 00:23:16,003 [INFO]: The number of anomalous seqs after ap clustering: 24
+2025-06-02 00:23:16,003 [INFO]: The number of anomalous clusters: 8
+2025-06-02 00:23:16,014 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:16,018 [INFO]: precision: 0.212, recall: 0.750, f1: 0.330
+2025-06-02 00:23:16,031 [INFO]: Experiment result plotted!
+2025-06-02 00:23:16,181 [INFO]: Loading metric patterns...
+2025-06-02 00:23:16,185 [INFO]: precision: 0.212, recall: 0.750, f1: 0.330
+2025-06-02 00:23:16,197 [INFO]: Experiment result plotted!
+2025-06-02 00:23:16,336 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:16,337 [INFO]: The number of subsequences to predict normality: 4172
+2025-06-02 00:23:16,472 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:16,473 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:16,476 [INFO]: Experiment result plotted!
+2025-06-02 00:23:16,633 [INFO]: ^^^^^^^^^^ Dataset: industry (923e8d40), m: 15, p: 99 ^^^^^^^^^^
+2025-06-02 00:23:16,633 [INFO]: Parameter settings:
+2025-06-02 00:23:16,633 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:16,640 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:16,800 [INFO]: The number of anomalous seqs: 44
+2025-06-02 00:23:16,983 [INFO]: The number of anomalous seqs after ap clustering: 44
+2025-06-02 00:23:16,983 [INFO]: The number of anomalous clusters: 1
+2025-06-02 00:23:16,993 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:16,998 [INFO]: precision: 1.000, recall: 0.667, f1: 0.800
+2025-06-02 00:23:17,022 [INFO]: Experiment result plotted!
+2025-06-02 00:23:17,171 [INFO]: Loading metric patterns...
+2025-06-02 00:23:17,176 [INFO]: precision: 1.000, recall: 0.667, f1: 0.800
+2025-06-02 00:23:17,200 [INFO]: Experiment result plotted!
+2025-06-02 00:23:17,337 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:17,337 [INFO]: The number of subsequences to predict normality: 4152
+2025-06-02 00:23:17,433 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:17,433 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:17,436 [INFO]: Experiment result plotted!
+2025-06-02 00:23:17,575 [INFO]: ^^^^^^^^^^ Dataset: industry (f3480496), m: 15, p: 99 ^^^^^^^^^^
+2025-06-02 00:23:17,575 [INFO]: Parameter settings:
+2025-06-02 00:23:17,575 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:17,580 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:17,738 [INFO]: The number of anomalous seqs: 44
+2025-06-02 00:23:17,892 [INFO]: The number of anomalous seqs after ap clustering: 44
+2025-06-02 00:23:17,892 [INFO]: The number of anomalous clusters: 7
+2025-06-02 00:23:17,902 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:17,907 [INFO]: precision: 1.000, recall: 0.734, f1: 0.847
+2025-06-02 00:23:17,928 [INFO]: Experiment result plotted!
+2025-06-02 00:23:18,067 [INFO]: Loading metric patterns...
+2025-06-02 00:23:18,072 [INFO]: precision: 1.000, recall: 0.734, f1: 0.847
+2025-06-02 00:23:18,092 [INFO]: Experiment result plotted!
+2025-06-02 00:23:18,360 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:18,360 [INFO]: The number of subsequences to predict normality: 4150
+2025-06-02 00:23:18,474 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:18,475 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:18,477 [INFO]: Experiment result plotted!
+2025-06-02 00:23:18,605 [INFO]: ^^^^^^^^^^ Dataset: industry (89c74527), m: 15, p: 99 ^^^^^^^^^^
+2025-06-02 00:23:18,605 [INFO]: Parameter settings:
+2025-06-02 00:23:18,605 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:18,611 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:18,754 [INFO]: The number of anomalous seqs: 44
+2025-06-02 00:23:18,913 [INFO]: The number of anomalous seqs after ap clustering: 44
+2025-06-02 00:23:18,913 [INFO]: The number of anomalous clusters: 33
+2025-06-02 00:23:18,926 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:18,932 [INFO]: precision: 0.453, recall: 1.000, f1: 0.624
+2025-06-02 00:23:18,955 [INFO]: Experiment result plotted!
+2025-06-02 00:23:19,099 [INFO]: Loading metric patterns...
+2025-06-02 00:23:19,105 [INFO]: precision: 0.453, recall: 1.000, f1: 0.624
+2025-06-02 00:23:19,127 [INFO]: Experiment result plotted!
+2025-06-02 00:23:19,263 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:19,263 [INFO]: The number of subsequences to predict normality: 4156
+2025-06-02 00:23:19,434 [INFO]: precision: 0.161, recall: 1.000, f1: 0.277
+2025-06-02 00:23:19,576 [INFO]: Experiment result plotted!
+2025-06-02 00:23:19,742 [INFO]: ^^^^^^^^^^ Dataset: industry (5cf670ac), m: 15, p: 99 ^^^^^^^^^^
+2025-06-02 00:23:19,742 [INFO]: Parameter settings:
+2025-06-02 00:23:19,742 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:19,747 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:19,894 [INFO]: The number of anomalous seqs: 44
+2025-06-02 00:23:20,024 [INFO]: The number of anomalous seqs after ap clustering: 44
+2025-06-02 00:23:20,025 [INFO]: The number of anomalous clusters: 4
+2025-06-02 00:23:20,034 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:20,039 [INFO]: precision: 1.000, recall: 0.681, f1: 0.810
+2025-06-02 00:23:20,059 [INFO]: Experiment result plotted!
+2025-06-02 00:23:20,193 [INFO]: Loading metric patterns...
+2025-06-02 00:23:20,198 [INFO]: precision: 1.000, recall: 0.681, f1: 0.810
+2025-06-02 00:23:20,218 [INFO]: Experiment result plotted!
+2025-06-02 00:23:20,342 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:20,342 [INFO]: The number of subsequences to predict normality: 4146
+2025-06-02 00:23:20,444 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:20,445 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:20,447 [INFO]: Experiment result plotted!
+2025-06-02 00:23:20,570 [INFO]: ^^^^^^^^^^ Dataset: industry (0b86ca32), m: 15, p: 99 ^^^^^^^^^^
+2025-06-02 00:23:20,570 [INFO]: Parameter settings:
+2025-06-02 00:23:20,570 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:20,576 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:20,727 [INFO]: The number of anomalous seqs: 44
+2025-06-02 00:23:20,856 [INFO]: The number of anomalous seqs after ap clustering: 18
+2025-06-02 00:23:20,857 [INFO]: The number of anomalous clusters: 6
+2025-06-02 00:23:20,867 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:20,871 [INFO]: precision: 0.939, recall: 1.000, f1: 0.969
+2025-06-02 00:23:20,883 [INFO]: Experiment result plotted!
+2025-06-02 00:23:21,021 [INFO]: Loading metric patterns...
+2025-06-02 00:23:21,026 [INFO]: precision: 0.939, recall: 1.000, f1: 0.969
+2025-06-02 00:23:21,036 [INFO]: Experiment result plotted!
+2025-06-02 00:23:21,170 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:21,170 [INFO]: The number of subsequences to predict normality: 4178
+2025-06-02 00:23:21,279 [INFO]: precision: 0.929, recall: 0.188, f1: 0.312
+2025-06-02 00:23:21,287 [INFO]: Experiment result plotted!
+2025-06-02 00:23:21,423 [INFO]: ^^^^^^^^^^ Dataset: industry (f6dd78bd), m: 5, p: 99.5 ^^^^^^^^^^
+2025-06-02 00:23:21,423 [INFO]: Parameter settings:
+2025-06-02 00:23:21,423 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:21,429 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:21,582 [INFO]: The number of anomalous seqs: 22
+2025-06-02 00:23:21,762 [INFO]: The number of anomalous seqs after ap clustering: 0
+2025-06-02 00:23:21,762 [INFO]: The number of anomalous clusters: 0
+2025-06-02 00:23:21,772 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:21,772 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:21,772 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:21,774 [INFO]: Experiment result plotted!
+2025-06-02 00:23:21,908 [INFO]: Loading metric patterns...
+2025-06-02 00:23:21,909 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:21,909 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:21,910 [INFO]: Experiment result plotted!
+2025-06-02 00:23:22,035 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:22,036 [INFO]: The number of subsequences to predict normality: 4190
+2025-06-02 00:23:22,130 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:22,131 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:23:22,133 [INFO]: Experiment result plotted!
+2025-06-02 00:23:22,261 [INFO]: ^^^^^^^^^^ Dataset: industry (2725054a), m: 15, p: 97 ^^^^^^^^^^
+2025-06-02 00:23:22,261 [INFO]: Parameter settings:
+2025-06-02 00:23:22,261 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:22,266 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:22,417 [INFO]: The number of anomalous seqs: 130
+2025-06-02 00:23:22,624 [INFO]: The number of anomalous seqs after ap clustering: 130
+2025-06-02 00:23:22,624 [INFO]: The number of anomalous clusters: 1
+2025-06-02 00:23:22,634 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:22,639 [INFO]: precision: 1.000, recall: 0.859, f1: 0.924
+2025-06-02 00:23:22,702 [INFO]: Experiment result plotted!
+2025-06-02 00:23:22,866 [INFO]: Loading metric patterns...
+2025-06-02 00:23:22,871 [INFO]: precision: 1.000, recall: 0.859, f1: 0.924
+2025-06-02 00:23:23,063 [INFO]: Experiment result plotted!
+2025-06-02 00:23:23,212 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:23,212 [INFO]: The number of subsequences to predict normality: 4151
+2025-06-02 00:23:23,302 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:23,302 [INFO]: precision: 1.000, recall: 1.000, f1: 1.000
+2025-06-02 00:23:23,305 [INFO]: Experiment result plotted!
+2025-06-02 00:23:23,434 [INFO]: ^^^^^^^^^^ Dataset: industry (84169b80), m: 15, p: 97 ^^^^^^^^^^
+2025-06-02 00:23:23,434 [INFO]: Parameter settings:
+2025-06-02 00:23:23,434 [INFO]: Adaptive pattern learning: False
+2025-06-02 00:23:23,440 [INFO]: Metric patterns not found, conduct offline anomaly detection first
+2025-06-02 00:23:23,590 [INFO]: The number of anomalous seqs: 130
+2025-06-02 00:23:23,783 [INFO]: The number of anomalous seqs after ap clustering: 128
+2025-06-02 00:23:23,784 [INFO]: The number of anomalous clusters: 2
+2025-06-02 00:23:23,794 [INFO]: Metric patterns dumped.
+2025-06-02 00:23:23,800 [INFO]: precision: 0.993, recall: 1.000, f1: 0.996
+2025-06-02 00:23:23,855 [INFO]: Experiment result plotted!
+2025-06-02 00:23:23,993 [INFO]: Loading metric patterns...
+2025-06-02 00:23:23,998 [INFO]: precision: 0.993, recall: 1.000, f1: 0.996
+2025-06-02 00:23:24,051 [INFO]: Experiment result plotted!
+2025-06-02 00:23:24,187 [INFO]: Online mode without adaptive pattern learning...
+2025-06-02 00:23:24,187 [INFO]: The number of subsequences to predict normality: 4146
+2025-06-02 00:23:24,276 [INFO]: No anomalous patterns detected!
+2025-06-02 00:23:24,277 [INFO]: precision: 0.000, recall: 0.000, f1: 0.000
+2025-06-02 00:23:24,279 [INFO]: Experiment result plotted!
