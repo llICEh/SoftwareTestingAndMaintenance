@@ -1,0 +1,9 @@
+data:
+  path: "./data/Twitter_volume_AMZN.csv"  # 数据路径
+  train_ratio: 0.7                        # 训练集比例
+model:
+  name: "sr_cnn"                          # 模型选择（sr, sr_cnn, lstm等）
+  window_size: 1440                       # 滑动窗口大小
+training:
+  epochs: 50
+  batch_size: 32
