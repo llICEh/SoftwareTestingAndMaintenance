@@ -1,0 +1,46 @@
+product_id,product_name,price,quantity,category,image_file
+OLJCESPC7Z,Sunglasses,19.99,1,accessories,sunglasses.jpg
+OLJCESPC7Z,Sunglasses,19.99,2,accessories,sunglasses.jpg
+OLJCESPC7Z,Sunglasses,19.99,3,accessories,sunglasses.jpg
+OLJCESPC7Z,Sunglasses,19.99,4,accessories,sunglasses.jpg
+OLJCESPC7Z,Sunglasses,19.99,5,accessories,sunglasses.jpg
+66VCHSJNUP,Tank Top,18.99,1,clothing,tank-top.jpg
+66VCHSJNUP,Tank Top,18.99,2,clothing,tank-top.jpg
+66VCHSJNUP,Tank Top,18.99,3,clothing,tank-top.jpg
+66VCHSJNUP,Tank Top,18.99,4,clothing,tank-top.jpg
+66VCHSJNUP,Tank Top,18.99,5,clothing,tank-top.jpg
+1YMWWN1N4O,Watch,109.99,1,accessories,watch.jpg
+1YMWWN1N4O,Watch,109.99,2,accessories,watch.jpg
+1YMWWN1N4O,Watch,109.99,3,accessories,watch.jpg
+1YMWWN1N4O,Watch,109.99,4,accessories,watch.jpg
+1YMWWN1N4O,Watch,109.99,5,accessories,watch.jpg
+L9ECAV7KIM,Loafers,89.00,1,footwear,loafers.jpg
+L9ECAV7KIM,Loafers,89.00,2,footwear,loafers.jpg
+L9ECAV7KIM,Loafers,89.00,3,footwear,loafers.jpg
+L9ECAV7KIM,Loafers,89.00,4,footwear,loafers.jpg
+L9ECAV7KIM,Loafers,89.00,5,footwear,loafers.jpg
+2ZYFJ3GM2N,Hairdryer,24.99,1,electronics,hairdryer.jpg
+2ZYFJ3GM2N,Hairdryer,24.99,2,electronics,hairdryer.jpg
+2ZYFJ3GM2N,Hairdryer,24.99,3,electronics,hairdryer.jpg
+2ZYFJ3GM2N,Hairdryer,24.99,4,electronics,hairdryer.jpg
+2ZYFJ3GM2N,Hairdryer,24.99,5,electronics,hairdryer.jpg
+0PUK6V6EV0,Candle Holder,18.99,1,home,candle-holder.jpg
+0PUK6V6EV0,Candle Holder,18.99,2,home,candle-holder.jpg
+0PUK6V6EV0,Candle Holder,18.99,3,home,candle-holder.jpg
+0PUK6V6EV0,Candle Holder,18.99,4,home,candle-holder.jpg
+0PUK6V6EV0,Candle Holder,18.99,5,home,candle-holder.jpg
+LS4PSXUNUM,Salt & Pepper Shakers,18.49,1,kitchen,salt-and-pepper-shakers.jpg
+LS4PSXUNUM,Salt & Pepper Shakers,18.49,2,kitchen,salt-and-pepper-shakers.jpg
+LS4PSXUNUM,Salt & Pepper Shakers,18.49,3,kitchen,salt-and-pepper-shakers.jpg
+LS4PSXUNUM,Salt & Pepper Shakers,18.49,4,kitchen,salt-and-pepper-shakers.jpg
+LS4PSXUNUM,Salt & Pepper Shakers,18.49,5,kitchen,salt-and-pepper-shakers.jpg
+9SIQT8TOJO,Bamboo Glass Jar,5.49,1,kitchen,bamboo-glass-jar.jpg
+9SIQT8TOJO,Bamboo Glass Jar,5.49,2,kitchen,bamboo-glass-jar.jpg
+9SIQT8TOJO,Bamboo Glass Jar,5.49,3,kitchen,bamboo-glass-jar.jpg
+9SIQT8TOJO,Bamboo Glass Jar,5.49,4,kitchen,bamboo-glass-jar.jpg
+9SIQT8TOJO,Bamboo Glass Jar,5.49,5,kitchen,bamboo-glass-jar.jpg
+6E92ZMYYFZ,Mug,8.99,1,kitchen,mug.jpg
+6E92ZMYYFZ,Mug,8.99,2,kitchen,mug.jpg
+6E92ZMYYFZ,Mug,8.99,3,kitchen,mug.jpg
+6E92ZMYYFZ,Mug,8.99,4,kitchen,mug.jpg
+6E92ZMYYFZ,Mug,8.99,5,kitchen,mug.jpg

@@ -1,0 +1,163 @@
+[
+  {
+    "page": "\u9996\u9875\u52a0\u8f7d",
+    "load_time": 1.31,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:22:44",
+    "status": "fast"
+  },
+  {
+    "page": "\u8ba2\u5355\u63d0\u4ea4",
+    "load_time": 5.04,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:22:55",
+    "status": "slow"
+  },
+  {
+    "page": "\u9996\u9875\u52a0\u8f7d",
+    "load_time": 0.99,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:01",
+    "status": "fast"
+  },
+  {
+    "page": "\u9996\u9875\u52a0\u8f7d",
+    "load_time": 0.98,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:32",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c1\u8be6\u60c5\u9875-\u4ea7\u54c12",
+    "load_time": 0.11,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:33",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c1\u8be6\u60c5\u9875-\u4ea7\u54c13",
+    "load_time": 0.1,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:33",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c1\u8be6\u60c5\u9875-\u4ea7\u54c14",
+    "load_time": 0.09,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:33",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c1\u8be6\u60c5\u9875-\u4ea7\u54c15",
+    "load_time": 0.15,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:34",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c1\u8be6\u60c5\u9875-\u4ea7\u54c16",
+    "load_time": 0.1,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:34",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c1\u8be6\u60c5\u9875-\u4ea7\u54c17",
+    "load_time": 0.11,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:34",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c1\u8be6\u60c5\u9875-\u4ea7\u54c18",
+    "load_time": 0.12,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:34",
+    "status": "fast"
+  },
+  {
+    "page": "\u63a8\u8350\u5546\u54c11",
+    "load_time": 0.12,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:41",
+    "status": "fast"
+  },
+  {
+    "page": "\u63a8\u8350\u5546\u54c12",
+    "load_time": 0.12,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:41",
+    "status": "fast"
+  },
+  {
+    "page": "\u63a8\u8350\u5546\u54c13",
+    "load_time": 0.13,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:41",
+    "status": "fast"
+  },
+  {
+    "page": "\u63a8\u8350\u5546\u54c14",
+    "load_time": 0.09,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:23:41",
+    "status": "fast"
+  },
+  {
+    "page": "\u9996\u9875\u52a0\u8f7d",
+    "load_time": 1.07,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:24:02",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c1\u8be6\u60c5\u9875",
+    "load_time": 0.1,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:24:02",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c12\u8be6\u60c5\u9875",
+    "load_time": 0.14,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:24:30",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c13\u8be6\u60c5\u9875",
+    "load_time": 0.09,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:24:30",
+    "status": "fast"
+  },
+  {
+    "page": "\u5546\u54c14\u8be6\u60c5\u9875",
+    "load_time": 0.13,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:24:30",
+    "status": "fast"
+  },
+  {
+    "page": "\u9996\u9875\u52a0\u8f7d",
+    "load_time": 1.1,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:24:37",
+    "status": "fast"
+  },
+  {
+    "page": "\u6dfb\u52a0\u5546\u54c1\u5230\u8d2d\u7269\u8f66",
+    "load_time": 2.05,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:24:39",
+    "status": "fast"
+  },
+  {
+    "page": "\u8d2d\u7269\u8f66\u9875\u9762",
+    "load_time": 0.17,
+    "browser": "edge",
+    "timestamp": "2025-06-08 14:24:44",
+    "status": "fast"
+  }
+]

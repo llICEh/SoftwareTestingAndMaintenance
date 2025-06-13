@@ -1,0 +1,130 @@
+[
+  {
+    "timestamp": 1749355415.118763,
+    "page": "用户旅程-首页",
+    "load_time": 1.07,
+    "browser": "chrome",
+    "datetime": "2025-06-08T12:03:35.118763",
+    "test_session": "20250608_120335"
+  },
+  {
+    "timestamp": 1749355423.3338466,
+    "page": "用户旅程-商品详情",
+    "load_time": 0.18,
+    "browser": "chrome",
+    "datetime": "2025-06-08T12:03:43.333846",
+    "test_session": "20250608_120343"
+  },
+  {
+    "timestamp": 1749355437.6053147,
+    "page": "首页加载",
+    "load_time": 1.041,
+    "browser": "chrome",
+    "datetime": "2025-06-08T12:03:57.605314",
+    "test_session": "20250608_120357"
+  },
+  {
+    "timestamp": 1749355472.2586374,
+    "page": "商品详情页",
+    "load_time": 0.22,
+    "browser": "chrome",
+    "datetime": "2025-06-08T12:04:32.258637",
+    "test_session": "20250608_120432"
+  },
+  {
+    "timestamp": 1749355495.330218,
+    "page": "首页加载",
+    "load_time": 0.965,
+    "browser": "chrome",
+    "datetime": "2025-06-08T12:04:55.330218",
+    "test_session": "20250608_120455"
+  },
+  {
+    "timestamp": 1749355498.788343,
+    "page": "用户登录",
+    "load_time": 3.047,
+    "browser": "chrome",
+    "datetime": "2025-06-08T12:04:58.788343",
+    "test_session": "20250608_120458"
+  },
+  {
+    "timestamp": 1749355520.221352,
+    "page": "首页",
+    "load_time": 0.959,
+    "browser": "chrome",
+    "datetime": "2025-06-08T12:05:20.221352",
+    "test_session": "20250608_120520"
+  },
+  {
+    "timestamp": 1749355522.8714042,
+    "page": "用户注册",
+    "load_time": 2.104,
+    "browser": "chrome",
+    "datetime": "2025-06-08T12:05:22.871404",
+    "test_session": "20250608_120522"
+  },
+  {
+    "timestamp": 1749355551.3110375,
+    "page": "用户旅程-首页",
+    "load_time": 1.194,
+    "browser": "edge",
+    "datetime": "2025-06-08T12:05:51.311037",
+    "test_session": "20250608_120551"
+  },
+  {
+    "timestamp": 1749355560.6788533,
+    "page": "用户旅程-商品详情",
+    "load_time": 0.199,
+    "browser": "edge",
+    "datetime": "2025-06-08T12:06:00.678853",
+    "test_session": "20250608_120600"
+  },
+  {
+    "timestamp": 1749355573.500059,
+    "page": "首页加载",
+    "load_time": 1.131,
+    "browser": "edge",
+    "datetime": "2025-06-08T12:06:13.501062",
+    "test_session": "20250608_120613"
+  },
+  {
+    "timestamp": 1749355607.0838985,
+    "page": "商品详情页",
+    "load_time": 0.166,
+    "browser": "edge",
+    "datetime": "2025-06-08T12:06:47.083898",
+    "test_session": "20250608_120647"
+  },
+  {
+    "timestamp": 1749355628.8510354,
+    "page": "首页加载",
+    "load_time": 1.25,
+    "browser": "edge",
+    "datetime": "2025-06-08T12:07:08.851035",
+    "test_session": "20250608_120708"
+  },
+  {
+    "timestamp": 1749355632.2543507,
+    "page": "用户登录",
+    "load_time": 3.048,
+    "browser": "edge",
+    "datetime": "2025-06-08T12:07:12.254350",
+    "test_session": "20250608_120712"
+  },
+  {
+    "timestamp": 1749355652.6518683,
+    "page": "首页",
+    "load_time": 1.279,
+    "browser": "edge",
+    "datetime": "2025-06-08T12:07:32.651868",
+    "test_session": "20250608_120732"
+  },
+  {
+    "timestamp": 1749355655.3988278,
+    "page": "用户注册",
+    "load_time": 2.117,
+    "browser": "edge",
+    "datetime": "2025-06-08T12:07:35.398827",
+    "test_session": "20250608_120735"
+  }
+]

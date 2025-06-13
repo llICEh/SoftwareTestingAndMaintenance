@@ -1,0 +1,51 @@
+[
+  {
+    "scenario_name": "browse_only",
+    "description": "仅浏览商品",
+    "weight": 40,
+    "actions": [
+      "homepage",
+      "product_detail",
+      "product_detail",
+      "homepage"
+    ]
+  },
+  {
+    "scenario_name": "add_to_cart",
+    "description": "添加到购物车",
+    "weight": 30,
+    "actions": [
+      "homepage",
+      "product_detail",
+      "add_to_cart",
+      "view_cart"
+    ]
+  },
+  {
+    "scenario_name": "complete_purchase",
+    "description": "完整购买流程",
+    "weight": 20,
+    "actions": [
+      "homepage",
+      "product_detail",
+      "add_to_cart",
+      "view_cart",
+      "checkout",
+      "place_order"
+    ]
+  },
+  {
+    "scenario_name": "heavy_user",
+    "description": "重度用户行为",
+    "weight": 10,
+    "actions": [
+      "homepage",
+      "product_detail",
+      "add_to_cart",
+      "product_detail",
+      "add_to_cart",
+      "view_cart",
+      "checkout"
+    ]
+  }
+]

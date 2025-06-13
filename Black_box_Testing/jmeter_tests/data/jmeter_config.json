@@ -1,0 +1,47 @@
+{
+  "test_config": {
+    "base_url": "127.0.0.1",
+    "port": "8080",
+    "protocol": "http"
+  },
+  "load_profiles": {
+    "microservice_comparison": {
+      "threads": 20,
+      "ramp_time": 60,
+      "loop_count": 3,
+      "description": "微服务对比测试 - 统一配置"
+    },
+    "low_load": {
+      "threads": 20,
+      "ramp_time": 60,
+      "duration": 300,
+      "description": "低负载基准测试"
+    },
+    "medium_load": {
+      "threads": 50,
+      "ramp_time": 120,
+      "duration": 600,
+      "description": "中负载标准测试"
+    },
+    "high_load": {
+      "threads": 100,
+      "ramp_time": 180,
+      "duration": 900,
+      "description": "高负载压力测试"
+    }
+  },
+  "user_behavior_weights": {
+    "browse_only": 70,
+    "cart_operations": 20,
+    "complete_purchase": 10
+  },
+  "api_endpoints": {
+    "homepage": "/",
+    "product_detail": "/product/{product_id}",
+    "add_to_cart": "/cart",
+    "view_cart": "/cart",
+    "checkout": "/cart/checkout",
+    "static_css": "/static/styles/styles.css",
+    "product_image": "/static/img/products/{image_file}"
+  }
+}
